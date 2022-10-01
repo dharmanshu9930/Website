@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Dharmanshu's website</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>D</span>harmanshu <span>S</span>ingh</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">Interests</a></li>
+            <li><a href="#projects" data-after="Projects">Drawings</a></li>
+            <li><a href="#about" data-after="About">Poetry</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Dharmanshu Singh <span></span></h1>
+        <a href="#projects" type="button" class="cta">About Me</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Inte<span>r</span>ests</h1>
+        <p></p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="data:image/png;base64,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" /></div>
+          <h2>C++ Programming</h2>
+          <p>I have done competetive programming in codechef and completed the c++ udemy course under learning academy.Besides that i think c++ is really fun.
+          </p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://images.unsplash.com/photo-1602738328654-51ab2ae6c4ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXJ0JTIwZHJhd2luZ3xlbnwwfHwwfHw%3D&w=1000&q=80" /></div>
+          <h2>Drawing</h2>
+          <p>I love drawing and beside observing nature,drawing really makes me feel calm."I LOVE TO DRAW!!!!!!".I wish to continue my drawing and draw even more stuffs.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" /></div>
+          <h2>Python</h2>
+          <p>Python is my personal favourite language to work upon,with features likes(turtle,yolo,open cv and many more),its absolutely 
+               fun to use and work with.
+          </p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png" /></div>
+          <h2>Web Development</h2>
+          <p>Am currently very new to this field on technology and this is my first website ,but am really enjoying 
+               learning web development and going with flow.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">My <span>  Drawings</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>My first drawing</h1>
+            <h2>It was the start</h2>
+            <p>This one is not so good but this is the start of my drawing journey and i love that i drawed this.</p>
+          </div>
+          <div class="project-img">
+            <img src="./assets/WhatsApp Image 2022-08-03 at 9.19.58 PM.jpeg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>My physics teacher</h1>
+            <h2>He was rude though</h2>
+            <p>He kinda looked like this and he was really rude to me though but overall a funny guy.</p>
+          </div>
+          <div class="project-img">
+            <img src="./assets/WhatsApp Image 2022-08-03 at 9.22.34 PM (2).jpeg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Just random</h1>
+            <h2>Mad for anime</h2>
+            <p>this is one of my finest piece i could draw and i personally like it.</p>
+          </div>
+          <div class="project-img">
+            <img src="./assets/WhatsApp Image 2022-08-03 at 9.18.29 PM.jpeg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Just another drawing</h1>
+            <h2>Hope you like it</h2>
+            <p>This one is because of an inspiration i got from a school kid looking up in sky when it was raining and i was in my school bus.</p>
+          </div>
+          <div class="project-img">
+            <img src="./assets/WhatsApp Image 2022-08-03 at 9.26.56 PM.jpeg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Pokemon</h1>
+            <h2>My all time favourite pokemon</h2>
+            <p>INFERNAPE!!!!!,No words but this is by far my most favourite and powerful pokemon in pokemon anime</p>
+          </div>
+          <div class="project-img">
+            <img src="./assets/WhatsApp Image 2022-08-03 at 9.18.29 PM (2).jpeg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Naruto!!</h1>
+            <h2>One of the most relatable character</h2>
+            <p>The bright smile he brings upon my face is what made me draw him.</p>
+          </div>
+          <div class="project-img">
+            <img src="./assets/WhatsApp Image 2022-08-03 at 9.18.30 PM (1).jpeg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Eyes</h1>
+            <h2>Nothing to say</h2>
+            <p>Eyes tell us a lot about the other person</p>
+          </div>
+          <div class="project-img">
+            <img src="./assets/WhatsApp Image 2022-08-03 at 9.18.26 PM.jpeg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Don't know what to say</h1>
+            <h2>!!!!!!!</h2>
+            <p>Just felt like drawing it.</p>
+          </div>
+          <div class="project-img">
+            <img src="./assets/WhatsApp Image 2022-08-03 at 9.18.29 PM (1).jpeg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Naruto and Hinata</h1>
+            <h2>Hinata is perfect!!!</h2>
+            <p>Again a naruto drawing,just felt like drawing it</p>
+          </div>
+          <div class="project-img">
+            <img src="./assets/WhatsApp Image 2022-08-03 at 9.18.28 PM.jpeg" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./assets/WhatsApp Image 2022-08-03 at 9.18.31 PM (1).jpeg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About My<span> Poetry</span></h1>
+        <h2>Khwaeishe!!</h2>
+        <p>
+Mana tha tumko Chand apne aasma ka <br>
+Pr tum to ja rhi ho chodhkar kisi tare sa <br>
+Jaate jaate ek aakhiri khawish poori krogi Kya <br>
+<br>
+Meri Kalam gairo ka naam nhi likhti <br>
+Tumhara likh ske ,Itna sa hq dogi Kya. <br>
+<br>
+Rab se nhi krunga Dua tumse milane ki,<br>
+Pr kbhi bin kahe sun li usne,<br>
+To mujhse milogi Kya?? <br>
+<br>
+Tumhari tasveer dekh kr sou <br>
+baat ye galat hogi ab,<br>
+Pr kbhi bhut mn kiya,to <br>
+us Chand me dikhogi Kya?? <br>
+<br>
+Sara sheher bhara h tumhari yaado se <br>
+Bechain ho jata hu Bahar nikalte hi <br>
+ Jaha sukoon se baithu ,<br>
+Us jagah ka pta dogi kya??<br>
+<br>
+Tumhari pasand ki neeli shirt <br>
+Mai nhi pehnunga kl se, <br>
+Na hi chhote baal rakhunga, <br>
+Pr ek aakhiri baar , <br>
+inki tareef me kuch likhogi Kya. <br>
+<br>
+Tumse baate to mai , <br>
+tumhare jaane ke baad bhi krunga, <br>
+Pr aj Mai  sirf sunu aur tum kahogi Kya. <br>
+<br>
+Suno accha, baat buri hai, pr sheher hmara ek hi h <br>
+Kabhi takra gye raste ,to sath do kadam chalogi  Kya, <br>
+<br>
+Khair tum ja chuki kbka door mujhse <br>
+To rokne ka sawal kaisa,  <br>
+Pr phir bhi aadtan tham Lu <br>
+ hath agar toh rukogi Kya. <br>
+<br>
+Kl tk  to tumhare khwabo ne, <br>
+Kl se tumhari yaad bharengi tanhayiaa meri <br>
+Aj ek aakhri baar inhe apne saath se bharogi kya <br>
+<br>
+Khair , chahta hu ki ab kabhi na lauto pass mere,<br>
+Kbhi mere n hone ki khabar mili <br>
+To ek aakhiri baar mujhse Milne lautogi Kya. <br>
+<br>
+Bde sawal h mere Dil me <br>
+Khamosh ho jayenge kl se, <br>
+Jo mere alfaaz na padh saki, <br>
+Kaho khamoshiya padh sakogi Kya . <br>
+<br>
+Lauta diye tumne tasveere aur tohfe sare <br>
+Pr kux khaas Mera Reh gya pass tumhare <br>
+To Jane se phle Mera Dil lauta sakogi Kya <br>
+        </p>
+        <a href="#" class="cta">ME</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+91 4209211420</h2>
+            <h2>+91 6392683122</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>mydrawing1907@gmail.com</h2>
+            <h2>mypoetry1921@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Gurgaon,Varanasi</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>D</span>harmanshu <span>S</span>ingh</h1>
+      </div>
+      <h2>Just something about me</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRVUi02vsM_IpAjpKsBRWp0whJctQ2-0MNyA&usqp=CAU" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://www.pngfind.com/pngs/m/151-1510944_instagram-png-png-download-instagram-logo-png-black.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://png.pngtree.com/png-clipart/20180520/ourmid/pngtree-twitter-white-icon-png-image_3570409.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://w7.pngwing.com/pngs/273/51/png-transparent-computer-icons-logo-behance-others-text-rectangle-logo.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2022 Dharmanshu. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
