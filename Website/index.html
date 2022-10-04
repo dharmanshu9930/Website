@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <title>Document</title>
+</head>
+<body>
+     <div class="container">
+          <div class="time">
+               <button id="btn1">Play</button>
+               <span id="timer" id="min">00</span>
+               <span class="colon" id="col">:</span>
+               <span class="countTimers" id="sec">00</span>
+               <button id="btn1">Pause</button>
+          </div> 
+     </div>
+     <script>
+          var timersCount = 0;
+var timerCounter = setInterval(countTimers, 30000);
+countTimers();
+
+function countTimers()
+{
+     timersCount++;
+
+     var count = 26;
+     var counter = setInterval(timer, 1000);
+     function timer()
+     {
+
+     count = count-1;
+     if(count < 0) {
+     clearInterval(counter);
+     return;
+     }
+
+     document.getElementById("timer").innerHTML=count;
+}
+document.getElementById("countTimers").innerHTML=timersCount;
+}
+     </script>
+</body>
+</html>
