@@ -345,6 +345,7 @@ a:hover span:nth-child(4) {
 	flex-wrap: wrap;
 	margin-top: 50px;
 }
+
 #services .service-item {
 	flex-basis: 80%;
 	display: flex;
@@ -359,6 +360,9 @@ a:hover span:nth-child(4) {
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
+}
+#services .service-item:hover{
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.50), 0 2px 10px 0 rgba(0, 0, 0, 0.50);
 }
 #services .service-item::after {
 	content: '';
