@@ -1,0 +1,22 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import statsmodels.api as sm
+data=pd.read_csv('C:\\Users\Priyansh\Datasets\dataset1.csv')
+print(data.describe())
+y=data['Satscore']
+x=data['GPA']
+
+plt.scatter(x, y)
+plt.ylabel('Sat score',fontsize=23)
+plt.xlabel('Gpa',fontsize=23)
+plt.show()
+x1=sm.add_constant(x)
+results=sm.OLS(y,x1).fit()
+print(results.summary())
+plt.scatter(x, y)
+yhat=206*x+458
+fig=plt.plot(x,yhat,lw=4,c='orange',label='regression analysis')
+plt.ylabel('Sat score',fontsize=23)
+plt.xlabel('Gpa',fontsize=23)
+plt.show()
