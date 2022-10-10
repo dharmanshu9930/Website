@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-class GFG {
+class RECURSION {
   public static void main(String[] args)
   {
     //input Array
