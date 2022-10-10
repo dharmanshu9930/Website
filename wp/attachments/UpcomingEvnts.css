@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Patua+One&family=Poppins&family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img{
+  width: 100px;
+}
+body {
+  overflow-x: hidden;
+  font-family: sans-serif;
+  background-image: url(about.jpg);
+  animation: awesomebg 10s linear infinite alternate;
+}
+@keyframes awesomebg {
+  from {
+    background-position: bottom left;
+  }
+  to {
+    background-position: bottom right;
+  }
+}
+html {
+  font-size: 62.5%;
+}
+/**************************NAVBAR**********************/
+header {
+  width: 100vw;
+  height: 11rem;
+  background: rgba(255, 255, 255, 0.19);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.logo {
+  font-size: 3rem;
+  color: white;
+  padding-left: 3.5rem;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+.logo #purple {
+  color: rgb(227, 5, 227);
+}
+.hamburger {
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.hamburger .line {
+  display: block;
+  width: 4rem;
+  height: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: rgb(162, 23, 255);
+}
+
+.nav__link a {
+  display: block;
+  text-align: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+.nav__link a:hover {
+  transition: all 0.4s;
+  color: white;
+  background-color: #00c9a7;
+  transform: skewX(-5deg);
+  box-shadow: 0.3rem 0.3rem 0rem white;
+}
+#sign {
+  margin-left: 2rem;
+  background-image: linear-gradient(to bottom right, #fcd34d, #ef4444, #ec4899);
+  background-size: 300%;
+  background-position: left;
+  transition: background-position 1s;
+  color: white;
+  border-radius: 0.2rem;
+  padding: 1rem 1rem;
+  align-items: center;
+  text-align: center;
+  transition: all 0.4s;
+}
+#login {
+  margin-left: 2rem;
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  color: white;
+  border-radius: 0.2rem;
+  padding: 1rem 1rem;
+  transition: all 0.4s;
+}
+#login:hover {
+  padding: 1rem 1rem;
+  background-position: right;
+  transform: skewX(-5deg);
+}
+#sign:hover {
+  padding: 1rem 1rem;
+  transform: skewX(-5deg);
+}
+.hide {
+  display: none;
+}
+
+/******************title******************/
+.container {
+  width: 100%;
+  height: 10rem;
+  margin-top: 20rem;
+}
+.container h1 {
+  font-size: 6rem;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#events {
+  color: #c60ce4;
+}
+/*****************EVENTS******************/
+.event_container {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 2rem;
+  margin-left: 9rem;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+.box {
+  width: 40rem;
+  height: 35rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  border: 0.2rem solid white;
+  border-radius: 1.5rem;
+  transition: all 0.25s ease-in-out;
+  overflow: hidden;
+}
+.box h2 {
+  position: absolute;
+  top: 85%;
+  display: none;
+}
+.square {
+  position: absolute;
+  top: 39%;
+  width: 100px;
+  height: 100px;
+  border-radius: 0 0 50% 50%;
+  border: 3px solid white;
+  transition: all 0.4s;
+  opacity: 0;
+}
+
+.box:hover {
+  background: linear-gradient(
+    90deg,
+    hsla(4, 93%, 67%, 1) 0%,
+    hsla(29, 86%, 52%, 1) 100%
+  );
+  color: white;
+}
+.box:hover h2 {
+  display: block;
+}
+.box:hover .square {
+  transform: translateY(60px);
+  opacity: 1;
+  box-shadow: 0.3rem 0.3rem white;
+}
+
+/*MAKING FOR MOBILE FRIENDLY*/
+@media screen and (min-width: 837px) {
+  .nav__link {
+    display: block;
+    position: static;
+    width: auto;
+    margin-right: 2rem;
+    background: none;
+  }
+
+  .nav__link a {
+    display: inline-block;
+    padding: 1.5rem 2rem;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}
+@media (max-width: 726px) {
+  .container h1 {
+    font-size: 4rem;
+  }
+}
+::selection {
+  background-color: rgb(247, 17, 247);
+  color: white;
+}

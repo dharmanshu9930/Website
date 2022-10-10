@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Patua+One&family=Poppins&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+}
+.container2 {
+  float: right;
+  position: absolute;
+  left: 50%;
+  width: 50%;
+  height: 100vh;
+  color: White;
+  background-image: url(Welcom.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.container1 {
+  width: 50%;
+  height: 100vh;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.container2 h1 {
+  position: absolute;
+  top: 45%;
+  left: 20%;
+  transform: translate(-13%, -50%);
+  font-size: 7rem;
+  text-transform: uppercase;
+}
+.container2 h2 {
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  transform: translate(20%, -20%);
+  font-size: 7rem;
+  text-transform: uppercase;
+}
+
+/************************Log***************************/
+.container1 {
+  float: left;
+  width: 50%;
+  height: 100vh;
+  background-color: white;
+}
+.sect1 {
+  width: 100%;
+  height: auto;
+  color: rgb(0, 0, 0);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  padding-left: 1rem;
+  float: left;
+}
+#arrow {
+  position: absolute;
+  left: 45%;
+  top: 4.5%;
+  width: 3rem;
+  height: 3rem;
+}
+.sect1 a {
+  text-decoration: none;
+}
+#Log {
+  color: rgb(37, 37, 180);
+}
+
+/**************Forms*******************/
+.container3 {
+  top: 20%;
+  height: 60vh;
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+}
+.container3 p {
+  position: absolute;
+  top: 10%;
+  left: 2.5%;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+.purple {
+  color: rgb(199, 9, 237);
+}
+.form {
+  margin-top: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#name,
+#pass {
+  margin: 1rem;
+  width: 38rem;
+  padding: 1rem;
+  transition: all 0.4s;
+}
+#name,
+#pass {
+  color: rgb(0, 0, 0);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.4rem;
+}
+.form p {
+  font-size: 1rem;
+  position: absolute;
+  top: 100%;
+  left: 8%;
+}
+#check {
+  position: absolute;
+  left: 3%;
+  padding: 1rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.btn {
+  width: 10rem;
+  padding: 1rem;
+  position: absolute;
+  margin-top: 6rem;
+  top: 100%;
+  left: 60%;
+  transform: translate(-100%, -60%);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  border: 0.1rem solid white;
+  border-radius: 0.4rem;
+  background: linear-gradient(159.75deg, #c60ce4 -9.12%, #1905ff 86.53%);
+}
+.btn:hover {
+  cursor: pointer;
+}
+::selection {
+  background-color: rgb(247, 17, 247);
+  color: white;
+}

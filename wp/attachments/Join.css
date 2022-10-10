@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Patua+One&family=Poppins&family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img{
+  width: 100px;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-image: url(job.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  overflow-x: hidden;
+  animation: awesomebg 5s linear infinite alternate-reverse;
+}
+@keyframes awesomebg {
+  from {
+    background-position: right;
+  }
+  to {
+    background-position: left;
+  }
+}
+header {
+  width: 100vw;
+  height: 11rem;
+  background: rgba(255, 255, 255, 0.19);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(40px);
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.logo {
+  font-size: 3rem;
+  color: white;
+  padding-left: 2rem;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+.logo #purple {
+  color: rgb(227, 5, 227);
+}
+
+.nav__link a {
+  display: block;
+  text-align: center;
+  align-items: center;
+  padding: 1rem 0;
+  font-family: sans-serif;
+}
+.nav__link a:hover {
+  transition: all 0.4s;
+  color: white;
+  background-color: #00c9a7;
+  transform: skewX(-5deg);
+  box-shadow: 0.3rem 0.3rem 0rem white;
+}
+#sign {
+  margin-left: 2rem;
+  background-image: linear-gradient(to bottom right, #fcd34d, #ef4444, #ec4899);
+  background-size: 300%;
+  background-position: left;
+  color: white;
+  border-radius: 0.2rem;
+  padding: 1rem 1rem;
+  align-items: center;
+  text-align: center;
+  transition: all 0.4s;
+}
+#login {
+  margin-left: 2rem;
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  color: white;
+  border-radius: 0.2rem;
+  padding: 1rem 1rem;
+  transition: all 0.4s;
+}
+#login:hover {
+  padding: 1rem 1rem;
+  background-position: right;
+  transform: skewX(-5deg);
+}
+#sign:hover {
+  padding: 1rem 1rem;
+  transform: skewX(-5deg);
+}
+.hide {
+  display: none;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero {
+  width: 35%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.19);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  border-radius: 2rem;
+}
+form {
+  width: 90%;
+  max-width: 600px;
+}
+.input-group {
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+label {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 1rem;
+  font-size: 2rem;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  cursor: text;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid white;
+  color: white;
+  background: transparent;
+  font-size: 1.5rem;
+}
+::placeholder {
+  color: white;
+  font-size: 2rem;
+}
+button {
+  padding: 10px 0;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2rem;
+  width: 40%;
+  cursor: pointer;
+  border: 0.001rem solid white;
+  background: linear-gradient(
+    31deg,
+    rgba(0, 255, 205, 1) 0%,
+    rgba(1, 220, 255, 1) 100%
+  );
+}
+#city,
+#name,
+#state,
+#email,
+#number {
+  font-size: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  align-items: center;
+  text-align: center;
+  margin-top: 20rem;
+}
+.title h1 {
+  font-size: 6rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+@media screen and (min-width: 837px) {
+  .nav__link {
+    display: block;
+    position: static;
+    width: auto;
+    margin-right: 2rem;
+    background: none;
+  }
+
+  .nav__link a {
+    display: inline-block;
+    padding: 1.5rem 2rem;
+  }
+}
