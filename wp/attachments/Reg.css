@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Patua+One&family=Poppins&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+}
+.container2 {
+  float: right;
+  position: absolute;
+  left: 50%;
+  width: 50%;
+  height: 100vh;
+  color: White;
+  background-image: url(Noise.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.container1 {
+  width: 50%;
+  height: 100vh;
+  background-color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.Hope {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: greenyellow;
+}
+.container2 h1 {
+  position: absolute;
+  top: 35%;
+  bottom: 20%;
+  left: 20%;
+  transform: translate(-7%, -50%);
+  font-size: 7rem;
+}
+.container2 p {
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  transform: translate(-20%, -50%);
+  font-size: 3rem;
+}
+.container2 h2 {
+  position: absolute;
+  top: 75%;
+  left: 35%;
+  transform: translate(-5%, -50%);
+  font-size: 3rem;
+}
+
+/************************Log***************************/
+.container1 {
+  float: left;
+  width: 50%;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+.sect1 {
+  width: 100%;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  padding-left: 1rem;
+  float: left;
+}
+#arrow {
+  position: absolute;
+  left: 45%;
+  top: 4.5%;
+  width: 3rem;
+  height: 3rem;
+}
+.sect1 a {
+  text-decoration: none;
+}
+#Log {
+  color: rgb(37, 37, 180);
+}
+
+/**************Forms*******************/
+.container3 {
+  top: 20%;
+  height: 60vh;
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+}
+.container3 p {
+  position: absolute;
+  top: 10%;
+  left: 2.5%;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+.purple {
+  color: rgb(199, 9, 237);
+}
+.form {
+  margin-top: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#name,
+#pass,
+#email {
+  margin: 1rem;
+  width: 38rem;
+  padding: 1rem;
+  transition: all 0.4s;
+}
+#name,
+#pass,
+#email {
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.4rem;
+}
+.btn {
+  width: 10rem;
+  padding: 1rem;
+  position: absolute;
+  margin-top: 4rem;
+  top: 100%;
+  left: 60%;
+  transform: translate(-100%, -60%);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  border: 0.1rem solid white;
+  border-radius: 0.4rem;
+  background-image: linear-gradient(
+    41deg,
+    rgba(255, 2, 0, 1) 0%,
+    rgba(136, 0, 255, 1) 100%
+  );
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.btn:hover {
+  background-size: 200%;
+  background-position: right;
+  background-image: linear-gradient(
+    linear-gradient(300deg, rgba(255, 2, 0, 1) 0%, rgba(136, 0, 255, 1) 100%)
+  );
+}
+::selection {
+  background-color: rgb(247, 17, 247);
+}

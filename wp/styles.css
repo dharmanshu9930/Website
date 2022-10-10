@@ -1,0 +1,89 @@
+*{
+margin: 0;
+padding: 0;
+}
+.header{
+     height: 100vh;
+     width: 100%;
+     overflow: hidden;
+     background-position: center;
+     background-size: cover;
+     position: relative;
+}
+/* video */
+.back{
+     position: absolute;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     height: 100%;
+     z-index: -1;
+}
+/* video */
+nav{
+     display: flex;
+     padding: 0% 5%;
+     justify-content: space-between;
+     align-items: center;
+}
+/* logo */
+nav img{
+     width: 150px;
+}
+/* logo */
+/* navbar */
+.nav-links{
+     flex: 1;
+     text-align: right;
+}
+.nav-links ul li{
+     list-style: none;
+     display: inline-block;
+     padding: 8px 12px;
+     position: relative;
+}
+.nav-links ul li a{
+     color: white;
+     text-decoration: none;
+     font-size: 13px;
+     list-style: none;
+     display: inline-block;
+     padding: 8px 12px;
+     position: relative;
+     transition: 0.5s;
+     border-radius: 50px;
+}
+.nav-links ul li a:hover{
+     background-color: #6F38C5;
+}
+/* navbar */
+/* needhelp */
+.content{
+     padding-top: 10%;
+     text-align: center;
+     justify-content: center;
+}
+.content h1{
+     font-size: 160px;
+     color: #fff;
+     font-weight: 600;
+     transition: 0.5s;
+}
+.content h1:hover{
+     -webkit-text-stroke: 2px #fff;
+     color:transparent;
+}
+.content a{
+     text-decoration: none;
+     display: inline-block;
+     color: #fff;
+     font-size: 24px;
+     border: 2px solid #fff;
+     padding: 14px 70px;
+     border-radius: 50px;
+     transition: 0.5s;
+}
+.content a:hover{
+     background-color:#6F38C5;
+}
+/* needhelp */
