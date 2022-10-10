@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>home task</title>
+	<style>
+		.container{
+			width: 20%;
+			margin: auto;
+			padding-bottom: 20px;
+			padding-top: 20px;
+			margin-top: 10%
+		}
+		.register{
+			text-align: center;
+			text-align: justify;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<form class="register">
+
+			<!--Username of the User-->
+			<label>Username</label>
+			<input type="text" id="Uname" placeholder="Username"><br>
+			<span id="Uerror"></span>
+			<br>
+
+			<!--E-mail of the User-->
+			<label>E-mail</label>
+			<input type="text" id="Umail" placeholder="E-mail" ><br>
+			<span id="mlerror"></span>
+			<br>
+
+			<!--Password of the User-->
+			<label>Password</label>
+			<input type="password" id="Upass" placeholder="Password"><br>
+			<span id="pserror"></span>
+			<br><br>
+
+			<input type="button" value="Submit">
+			
+		</form>
+	</div>
+</body>
+<script type="text/javascript">
+	
+	// validation on E-mail
+	var e= document.getElementById("Umail");
+	e.onchange = function () 
+	{
+		var ee=e.value;
+		if (ee==="")
+		 {
+          	document.getElementById("mlerror").textContent= "Enter your E-mail";
+		 }
+
+		 else
+		 {
+		 	document.getElementById("mlerror").textContent= "";
+		 }
+	}
+
+	// validation on Username
+	var u= document.getElementById('Uname');
+	u.onchange = function ()
+	 {
+		var uu = u.value;
+		if (uu=== "")
+		 {
+		 	document.getElementById("Uerror").textContent = "Enter Your Username";
+		 }
+		 else if (uu.length<"3" || uu.length>"20") 
+		 {
+		 	document.getElementById("Uerror").textContent = "username length should be in between 3 to 20";
+		 }
+		 else
+		 {
+		 	document.getElementById("Uerror").textContent = "";
+		 }
+	}
+
+	// validation on password
+	var pas= document.getElementById('Upass');
+	pass.onchange = function ()
+	 {
+		var pass = pas.value;
+		if (pass ==="")
+		 {
+		 	document.getElementById("pserror").textContent = "Enter Your Password";
+		 }
+		 else if (pass.length < 8 || pass.length > 20) 
+		 {
+		 	document.getElementById("pserror").textContent = "Password should not be less than 8";
+		 }
+		 else
+		 {
+		 	document.getElementById("pserror").textContent = "";
+		 }
+	}
+</script>
+</html>
