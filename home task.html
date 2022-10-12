@@ -17,25 +17,26 @@
 		}
 	</style>
 </head>
-<body>
+<body style="background-image:linear-gradient(red,pink)">
+<marquee><img src="https://hermingevorgyan.files.wordpress.com/2019/09/task.png"></marquee>
 	<div class="container">
 		<form class="register">
 
 			<!--Username of the User-->
 			<label>Username</label>
-			<input type="text" id="Uname" placeholder="Username"><br>
-			<span id="Uerror"></span>
+			<input type="text" id="Username" placeholder="Username"><br>
+			<span id="Usererror"></span>
 			<br>
 
 			<!--E-mail of the User-->
 			<label>E-mail</label>
-			<input type="text" id="Umail" placeholder="E-mail" ><br>
+			<input type="text" id="Usermail" placeholder="E-mail" ><br>
 			<span id="mlerror"></span>
 			<br>
 
 			<!--Password of the User-->
 			<label>Password</label>
-			<input type="password" id="Upass" placeholder="Password"><br>
+			<input type="password" id="Userpass" placeholder="Password"><br>
 			<span id="pserror"></span>
 			<br><br>
 
@@ -44,6 +45,7 @@
 		</form>
 	</div>
 </body>
+
 <script type="text/javascript">
 	
 	// validation on E-mail
@@ -71,9 +73,9 @@
 		 {
 		 	document.getElementById("Uerror").textContent = "Enter Your Username";
 		 }
-		 else if (uu.length<"3" || uu.length>"20") 
+		 else if (uu.length<"5" || uu.length>"20") 
 		 {
-		 	document.getElementById("Uerror").textContent = "username length should be in between 3 to 20";
+		 	document.getElementById("Uerror").textContent = "username length should be in between 5 to 20";
 		 }
 		 else
 		 {
@@ -90,14 +92,15 @@
 		 {
 		 	document.getElementById("pserror").textContent = "Enter Your Password";
 		 }
-		 else if (pass.length < 8 || pass.length > 20) 
+		 else if (pass.length < 10 || pass.length > 20) 
 		 {
-		 	document.getElementById("pserror").textContent = "Password should not be less than 8";
+		 	document.getElementById("pserror").textContent = "Password should not be less than 10";
 		 }
 		 else
 		 {
 		 	document.getElementById("pserror").textContent = "";
 		 }
 	}
+
 </script>
 </html>
