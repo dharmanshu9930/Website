@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    background: linear-gradient(rgba(0,0,100,0.5),rgba(0,0,100,0.5)), url(../images/background-edit.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: -1;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+}
+nav ul{
+    float: right;
+    margin: 0;
+    padding-right: 42px;
+}
+nav ul li{
+    display: inline-block;
+    padding: 16px 32px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+h1{
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 350px;
+    color: #fff;
+}
+nav.black{
+    background:#000;
+    border-radius: 5px;
+    /* opacity:0.9; */
+    transition: 1s;
+}
+nav ul li a:hover{
+    color: grey;
+}
+img{
+    border-radius: 200px;
+    margin: 5% 40%;
+}
+svg text{
+    font-size: 4rem;
+    stroke-width: 3px;
+    fill: transparent;
+    stroke: #ffa500;
+    animation: effect 3s infinite alternate;
+    display:flex;
+    transform: translateY(-20px);
+}
+@keyframes effect{
+    0%{
+        stroke-dasharray: 0 70%;
+    }
+    100%{
+        stroke-dasharray: 50% 0;
+        stroke-dashoffset: 10%;
+    }
+}
+
+#insta{
+    font-size: 50px;
+    transform: translateY(-620px);
+    margin: 0px 500px;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(241, 103, 241);
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+}
+#github{
+    font-size: 50px;
+    transform: translateY(-670px);
+    margin: 0px 700px;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(241, 103, 241);
+}
+#linkedin{
+    font-size: 50px;
+    transform: translateY(-720px);
+    margin: 0px 900px;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(241, 103, 241);
+}
+.developer h2{
+    font-size: 45px;
+    color: white;
+    /* font-family: 'Orbitron', sans-serif; */
+    margin: 0px 500px;
+    transform: translateY(-60px);
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+
+}
