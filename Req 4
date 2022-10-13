@@ -1,0 +1,10 @@
+class Employee:
+    ID = 10
+    Name = "devansh"
+
+    def display(self):
+        print("ID:%d\name:%s" % (self.ID, self.Name))
+
+
+Emp = Employee()
+Emp.display()
