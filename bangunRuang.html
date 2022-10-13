@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20.11.3424 Sigit Pramono</title>
+</head>
+<body>
+    
+    <script>
+        const jumlah = parseInt(prompt("Masukkan jumlah Bangun Ruang : "))
+
+        for (let i = 1; i <= jumlah; i++) {
+            const pilih = parseFloat(prompt(`
+                Bangun Ruang ke - ${jumlah} \nPilihlah: \n1. Hitung Luas Lingkaran \n2. Hitung Luas Persegi \n[${i}/${jumlah}]
+            `))
+            if (pilih == 1) {
+                function luas(r) {
+                    const phi = 3.14
+                    Lingkaran = phi * (r * r)
+                    return Lingkaran
+                }
+                let r = parseInt(prompt("Masukkan Jari-jari Lingkaran : "))
+                let luas_lingkaran = luas(r)
+                alert('Luas lingkaran = ' + luas_lingkaran)
+
+            } else if (pilih == 2) {
+                function luas(s) {
+                    persegi = s * s
+                    return persegi
+                }
+                let s = parseInt(prompt("Masukkan Sisi Persegi Persegi : "))
+                let luas_Persegi = luas(s)
+                alert('Luas Persegi = ' + luas_Persegi)
+            }
+        }
+    </script>
+</body>
+</html>
