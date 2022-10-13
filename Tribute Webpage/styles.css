@@ -1,75 +1,151 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    background-color: rgb(58, 56, 56);
+}
+.box{
+    display:flex ;
+    height: 500px;
+    width: 1400px;
+    border-radius: 4px;
+    background-color:rgb(243, 200, 207);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.pic{
+    height: 400px;
+    width: 400px;
+    border-radius: 3px;
+   margin-top: 45px;
+   margin-left: 30px;
+   object-fit: cover;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+.name{
+    padding-top: 40px;
+   padding-left: 350px;
+   font: bold;
+   color: navy;
+   background-color:pink;
+   font-size: 50px;
 }
 
-.container{
-    background-color: #e5e5fd;
-    min-height: 100vh;
-    border: 10px solid #1d1e4c;
+.box1{
+    display: block; 
+    background-color:pink;
 }
-.content{
-    max-width: 900px;
-    margin: 0 auto;
+.text{
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-right: 50px;
+    width:750px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:pink;
 }
-.image_container,img{
-    width: 300px;
-    height: 320px; 
-}
-.top_section{
-    display: flex;
-    justify-content: space-between;
-    margin-top : 100px;
-    align-items: flex-end;
-}
-
-.image_container{
-    border-radius: 50%;
-    overflow: hidden;
-}
-
-.top_section h1{
-    font-size: 50px;
-    font-weight: bold;
-    color: #1d1e4c;
-    text-transform: uppercase;
-}
-
-.top_section h4{
-    text-align: end;
-    font-size: 30px; 
-}
-
-.about_section{
-    margin-top: 50px;
-
-}
-.about_section h2{
+.bio{
     font-size: 70px;
-    font-weight: 400;
-    margin-bottom: 20px;
+    color: red;
+    padding-left: 540px;
 }
-.about_section p{
-    font-size: 20px;
-    line-height: 30px;  /*increases spaces between the lines */
-    letter-spacing: 1.2px; /*fixes spacinf between the letters*/
+
+
+
+
+.mis{
+    display:flex ;
+    height: 200px;
+    width: 1000px;
+    border-radius: 10px;
+    background-color:rgb(243, 230, 232);
+    box-shadow: 0 0 5px rgba(234, 232, 232, 0.6);
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+
 }
-.biography_section{
-    margin: 50px 0;
+.pic1{
+    height: 170px;
+    width: 170px;
+    border-radius: 10px;
+   margin-top: 15px;
+   margin-left: 30px;
+   object-fit: cover;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
 }
-.biography_section h3{
-    margin-bottom: 20px;
+.name1{
+   padding-top: 10px;
+   padding-left: 290px;
+   font: bold;
+   color: navy;
+   background-color:rgb(243, 230, 232);
+   font-size: 25px;
 }
-.biography_section ul{
-    margin-left: 50px;
+
+.mis1{
+    display: block; 
+    background-color:rgb(243, 230, 232);
 }
-.biography_section li{
-    margin-bottom: 15px;
+.text1{
+    padding-top: 2px;
+    padding-left: 32px;
+    padding-right: 15px;
+    width:700px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(243, 230, 232);
+    font-size: 13px;
 }
-footer{
-    margin: 50px 0;
+
+
+
+
+
+.tea{
+    display:flex ;
+    height: 200px;
+    width: 1000px;
+    border-radius: 10px;
+    background-color:rgb(243, 230, 232);
+    box-shadow: 0 0 5px rgba(234, 232, 232, 0.6);
+    margin-top: 20px;
+    margin-left: 430px;
+    margin-right: 30px;
 }
-footer p{
-    text-align: end;
+.pic2{
+    height: 170px;
+    width: 170px;
+    border-radius: 10px;
+   margin-top: 15px;
+   margin-left: 30px;
+   object-fit: cover;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+.name2{
+    padding-top: 10px;
+    padding-left: 290px;
+    font: bold;
+    color: navy;
+    background-color:rgb(243, 230, 232);
+    font-size: 25px;
+}
+
+.tea1{
+    display: block; 
+    background-color:rgb(243, 230, 232);
+}
+.text2{
+    padding-top: 2px;
+    padding-left: 32px;
+    padding-right: 15px;
+    width:700px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(243, 230, 232);
+    font-size: 13px;
+}
+.read{
+    background-color: rgb(243, 230, 232);
+    padding-left: 300px;
+}
+.read1{
+    background-color: rgb(243, 230, 232);
+    
 }
