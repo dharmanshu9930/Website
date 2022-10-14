@@ -1,0 +1,1751 @@
+[
+    {
+        "id": 0,
+        "question": "In Dragon Ball Z, who was the first character to go Super Saiyan 2?",
+        "options": [
+            "Goku",
+            "Vegeta",
+            "Trunks",
+            "Gohan"
+        ],
+        "answer": "Gohan"
+    },
+    {
+        "id": 1,
+        "question": "In the anime \"Mr. Osomatsu\", how many brothers does Osomatsu-san have?",
+        "options": [
+            "6",
+            "7",
+            "4",
+            "5"
+        ],
+        "answer": "5"
+    },
+    {
+        "id": 2,
+        "question": "What is the last name of Edward and Alphonse in the Fullmetal Alchemist series.",
+        "options": [
+            "Ellis",
+            "Eliek",
+            "Elwood",
+            "Elric"
+        ],
+        "answer": "Elric"
+    },
+    {
+        "id": 3,
+        "question": "In the anime, Full Metal Panic!, who is Kaname's best friend?",
+        "options": [
+            "Melissa Mao",
+            "Ren Mikihara",
+            "Teletha \"Tessa\" Testarossa",
+            "Kyoko Tokiwa"
+        ],
+        "answer": "Kyoko Tokiwa"
+    },
+    {
+        "id": 4,
+        "question": "Who is the true moon princess in Sailor Moon?",
+        "options": [
+            "Sailor Venus",
+            "Sailor Mars",
+            "Sailor Jupiter",
+            "Sailor Moon"
+        ],
+        "answer": "Sailor Moon"
+    },
+    {
+        "id": 5,
+        "question": "What was Ash Ketchum's second Pokemon?",
+        "options": [
+            "Charmander",
+            "Pikachu",
+            "Pidgey",
+            "Caterpie"
+        ],
+        "answer": "Caterpie"
+    },
+    {
+        "id": 6,
+        "question": "The manga JoJo's Bizarre Adventure is split into how many parts?",
+        "options": [
+            "6",
+            "4",
+            "3",
+            "8"
+        ],
+        "answer": "8"
+    },
+    {
+        "id": 7,
+        "question": "The main protagonist of the fourth part of JoJo's Bizarre Adventure is which of the following?",
+        "options": [
+            "Yoshikage kira",
+            "Koichi Hirose",
+            "Joey JoJo",
+            "Josuke Higashikata"
+        ],
+        "answer": "Josuke Higashikata"
+    },
+    {
+        "id": 8,
+        "question": "Which of these anime have over 7,500 episodes?",
+        "options": [
+            "Naruto",
+            "One Piece",
+            "Chibi Maruko-chan",
+            "Sazae-san"
+        ],
+        "answer": "Sazae-san"
+    },
+    {
+        "id": 9,
+        "question": "In the anime Assassination Classroom what is the class that Korosensei teaches?",
+        "options": [
+            "Class 3-A",
+            "Class 3-B",
+            "Class 3-D",
+            "Class 3-E"
+        ],
+        "answer": "Class 3-E"
+    },
+    {
+        "id": 10,
+        "question": "In the anime Black Butler, who is betrothed to be married to Ciel Phantomhive?",
+        "options": [
+            "Rachel Phantomhive",
+            "Alexis Leon Midford",
+            "Angelina Dalles",
+            "Elizabeth Midford"
+        ],
+        "answer": "Elizabeth Midford"
+    },
+    {
+        "id": 11,
+        "question": "What is the name of the final villain in the manga series \"Bleach\"?",
+        "options": [
+            "Juha Bach",
+            "Yuhabah",
+            "Juhabach",
+            "Yhwach"
+        ],
+        "answer": "Yhwach"
+    },
+    {
+        "id": 12,
+        "question": "What year did the anime \"Himouto! Umaru-chan\" air?",
+        "options": [
+            "2014",
+            "2012",
+            "2013",
+            "2015"
+        ],
+        "answer": "2015"
+    },
+    {
+        "id": 13,
+        "question": "What caused the titular mascot of Yo-Kai Watch, Jibanyan, to become a yokai?",
+        "options": [
+            "Ate one too many chocobars",
+            "Through a magical ritual",
+            "When he put on the harmaki",
+            "Being run over by a truck"
+        ],
+        "answer": "Being run over by a truck"
+    },
+    {
+        "id": 14,
+        "question": "Who is the author of the manga series \"Astro Boy\"?",
+        "options": [
+            "Mitsuteri Yokoyama",
+            "Takao Saito",
+            "Yoshihiro Tatsumi",
+            "Osamu Tezuka"
+        ],
+        "answer": "Osamu Tezuka"
+    },
+    {
+        "id": 15,
+        "question": "In the ADV (English) Dub of the anime \"Ghost Stories\", which character is portrayed as a Pentacostal Christian?",
+        "options": [
+            "Hajime Aoyama",
+            "Satsuki Miyanoshita",
+            "Mio Itai",
+            "Momoko Koigakubo"
+        ],
+        "answer": "Momoko Koigakubo"
+    },
+    {
+        "id": 16,
+        "question": "In the 2012 animated film \"Wolf Children\", what are the names of the wolf children?",
+        "options": [
+            "Hana & Yuki",
+            "Ame & Hana",
+            "Chuck & Anna",
+            "Ame & Yuki"
+        ],
+        "answer": "Ame & Yuki"
+    },
+    {
+        "id": 17,
+        "question": "What is the name of the device that allows for infinite energy in the anime \"Dimension W\"?",
+        "options": [
+            "Wires",
+            "Collectors",
+            "Tesla",
+            "Coils"
+        ],
+        "answer": "Coils"
+    },
+    {
+        "id": 18,
+        "question": "Akatsuki's subclass in \"Log Horizon\" is what?",
+        "options": [
+            "Assassin",
+            "Scribe",
+            "Apprentice",
+            " Tracker"
+        ],
+        "answer": " Tracker"
+    },
+    {
+        "id": 19,
+        "question": "In what year did the manga \"Ping Pong\" begin serialization?",
+        "options": [
+            "2014",
+            "2010",
+            "2003",
+            "1996"
+        ],
+        "answer": "1996"
+    },
+    {
+        "id": 20,
+        "question": "Which one of these characters is from \"Legendz : Tale of the Dragon Kings\"?",
+        "options": [
+            "Jack",
+            "Axia",
+            "Drum",
+            "Shiron"
+        ],
+        "answer": "Shiron"
+    },
+    {
+        "id": 21,
+        "question": "Which person from \"JoJo's Bizarre Adventure\" does NOT house a reference to a band, artist, or song earlier than 1980?",
+        "options": [
+            "Josuke Higashikata",
+            "Jolyne Cujoh",
+            "Johnny Joestar",
+            "Giorno Giovanna"
+        ],
+        "answer": "Giorno Giovanna"
+    },
+    {
+        "id": 22,
+        "question": "Which of the stands from \"JoJo's Bizarre Adventure\" mimics the likeness of a tomato?",
+        "options": [
+            "Red Hot Chili Pepper",
+            "Cream Starter",
+            "Nut King Call",
+            "Pearl Jam"
+        ],
+        "answer": "Pearl Jam"
+    },
+    {
+        "id": 23,
+        "question": "In \"A Certain Magical Index,\" what is Accelerator able to control?",
+        "options": [
+            "Velocity",
+            "Quantums",
+            "Wormholes",
+            "Vectors"
+        ],
+        "answer": "Vectors"
+    },
+    {
+        "id": 24,
+        "question": "In \"Toriko\", which of the following Heavenly Kings has an enhanced sense of Hearing?",
+        "options": [
+            "Coco",
+            "Sunny",
+            "Toriko",
+            "Zebra"
+        ],
+        "answer": "Zebra"
+    },
+    {
+        "id": 25,
+        "question": "What year does Part 7 of \"JoJo's Bizarre Adventure\" take place in?",
+        "options": [
+            "1888",
+            "1999",
+            "2003",
+            "1890"
+        ],
+        "answer": "1890"
+    },
+    {
+        "id": 26,
+        "question": "In \"Hunter x Hunter\", what are members in Killua's family known for being?",
+        "options": [
+            "Bandits",
+            "Hunters",
+            "Ninjas",
+            "Assassins"
+        ],
+        "answer": "Assassins"
+    },
+    {
+        "id": 27,
+        "question": "Who voices \"Shou Suzuki\" in the English dub of \"Mob Psycho 100\"?",
+        "options": [
+            "Ben Diskin",
+            "Chris Niosi",
+            "David Naughton",
+            "Casey Mongillo"
+        ],
+        "answer": "Casey Mongillo"
+    },
+    {
+        "id": 28,
+        "question": "Who is the colossal titan in \"Attack On Titan\"?",
+        "options": [
+            "Reiner",
+            "Eren",
+            "Sasha",
+            "Bertolt Hoover"
+        ],
+        "answer": "Bertolt Hoover"
+    },
+    {
+        "id": 29,
+        "question": "Who is the armored titan in \"Attack On Titan\"?",
+        "options": [
+            "Armin Arlelt",
+            "Mikasa Ackermann",
+            "Eren Jaeger",
+            "Reiner Braun"
+        ],
+        "answer": "Reiner Braun"
+    },
+    {
+        "id": 30,
+        "question": "In Pokémon Chronicles, why was Misty afraid of Gyarados?",
+        "options": [
+            "She found it scary.",
+            "She was badly injured from it.",
+            "It is part Bug.",
+            "She crawled into it's mouth as a baby."
+        ],
+        "answer": "She crawled into it's mouth as a baby."
+    },
+    {
+        "id": 31,
+        "question": "In \"To Love-Ru\", who is the first to hear of Yami's past from her?",
+        "options": [
+            "Mikan",
+            "Lala",
+            "Haruna",
+            "Rito"
+        ],
+        "answer": "Rito"
+    },
+    {
+        "id": 32,
+        "question": "In \"Highschool DxD\", what is the name of the item some humans are born with?",
+        "options": [
+            "Imperial Arm",
+            "Hallowed Relic",
+            "Blessed Artifact",
+            "Sacred Gear"
+        ],
+        "answer": "Sacred Gear"
+    },
+    {
+        "id": 33,
+        "question": "In \"Little Witch Academia\", what is Shiny Chariot's alias at Luna Nova Academy?",
+        "options": [
+            "Croix Meridies",
+            "Miranda Holbrook",
+            "Anne Finnelan",
+            "Ursula Callistis"
+        ],
+        "answer": "Ursula Callistis"
+    },
+    {
+        "id": 34,
+        "question": "In the 2011 TV anime series, \"THE iDOLM@STER\", what was the name of Iori's stuffed toy bunny?",
+        "options": [
+            "Bubsy",
+            "Kero",
+            "Usagi",
+            "Charles"
+        ],
+        "answer": "Charles"
+    },
+    {
+        "id": 35,
+        "question": "In the \"Re:Zero\" manga series, which of the following Sin Archbishops eats Rem's existence?",
+        "options": [
+            "Roy Alphard",
+            "Petelgeuse Romanee-Conti",
+            "Louis Arneb",
+            "Ley Batenkaitos"
+        ],
+        "answer": "Ley Batenkaitos"
+    },
+    {
+        "id": 36,
+        "question": "What is the name of the school in the anime and manga \"Gosick\"?",
+        "options": [
+            "St. Augustine",
+            "St. Mary",
+            "St. Bernadette",
+            "St. Marguerite"
+        ],
+        "answer": "St. Marguerite"
+    },
+    {
+        "id": 37,
+        "question": "In \"Puella Magi Madoka Magica\", what is the first name of Madoka's younger brother?",
+        "options": [
+            "Montoya",
+            "Tomohisa",
+            "Minato",
+            "Tatsuya"
+        ],
+        "answer": "Tatsuya"
+    },
+    {
+        "id": 38,
+        "question": "Which animation studio animated \"To Love-Ru\"?",
+        "options": [
+            "Trigger",
+            "Sunrise",
+            "Kyoto Animation",
+            "Xebec"
+        ],
+        "answer": "Xebec"
+    },
+    {
+        "id": 39,
+        "question": "Which animation studio produced the anime adaptation of \"xxxHolic\"?",
+        "options": [
+            "Sunrise",
+            "Xebec",
+            "Kyoto Animation",
+            "Production I.G"
+        ],
+        "answer": "Production I.G"
+    },
+    {
+        "id": 40,
+        "question": "What is the name of Funny Valentine's stand in Jojo's Bizarre Adventure Part 7, Steel Ball Run?",
+        "options": [
+            "Filthy Acts Done For A Reasonable Price",
+            "Civil War",
+            "God Bless The USA",
+            "Dirty Deeds Done Dirt Cheap"
+        ],
+        "answer": "Dirty Deeds Done Dirt Cheap"
+    },
+    {
+        "id": 41,
+        "question": "What was the reason for the banning of episode 35 of the \"Pokémon Original Series\" Anime?",
+        "options": [
+            "Flashing Images",
+            "Jynx",
+            "Strong Violence",
+            "Gun Usage"
+        ],
+        "answer": "Gun Usage"
+    },
+    {
+        "id": 42,
+        "question": "Which Pokémon and it's evolutions were banned from appearing in a main role after the Episode 38 Incident?",
+        "options": [
+            "The Pikachu Line",
+            "The Elekid Line",
+            "The Magby Line",
+            "The Porygon Line"
+        ],
+        "answer": "The Porygon Line"
+    },
+    {
+        "id": 43,
+        "question": "In \"Love Live: School Idol Project\" what pseudonym does Kotori Minami use in her job as a maid?",
+        "options": [
+            "Stanoytchev",
+            "Kuznetsov",
+            "Aqours",
+            "Minalinsky"
+        ],
+        "answer": "Minalinsky"
+    },
+    {
+        "id": 44,
+        "question": "Which part from the JoJo's Bizarre Adventure manga is about a horse race across America?",
+        "options": [
+            "Part 6: Stone Ocean",
+            "Part 3: Stardust Crusaders",
+            "Part 5: Golden Wind",
+            "Part 7: Steel Ball Run"
+        ],
+        "answer": "Part 7: Steel Ball Run"
+    },
+    {
+        "id": 45,
+        "question": "What colour hair does the main character of the Yu-Gi-Oh! original anime series have?",
+        "options": [
+            "Red, yellow and green",
+            "Red, black and green",
+            "Red, purple and blue",
+            "Red, black and yellow"
+        ],
+        "answer": "Red, black and yellow"
+    },
+    {
+        "id": 46,
+        "question": "Who was the Director of the 1988 Anime film \"Grave of the Fireflies\"?",
+        "options": [
+            "Hayao Miyazaki",
+            "Satoshi Kon",
+            "Sunao Katabuchi",
+            "Isao Takahata"
+        ],
+        "answer": "Isao Takahata"
+    },
+    {
+        "id": 47,
+        "question": "Which studio made Cowboy Bebop?",
+        "options": [
+            "Bones",
+            "Madhouse",
+            "Pierriot",
+            "Sunrise"
+        ],
+        "answer": "Sunrise"
+    },
+    {
+        "id": 48,
+        "question": "In the Naruto manga, what is the last name of Tsunade?",
+        "options": [
+            "Haruno",
+            "Uzumaki",
+            "Yamanaka",
+            "Senju"
+        ],
+        "answer": "Senju"
+    },
+    {
+        "id": 49,
+        "question": "In the anime \"My Hero Academia\", which character is shown with the ability to manipulate gravity?",
+        "options": [
+            "Bakugo",
+            "Deku",
+            "Asui ",
+            "Uraraka"
+        ],
+        "answer": "Uraraka"
+    },
+    {
+        "id": 50,
+        "question": "Which anime heavily features music from the genre \"Eurobeat\"?",
+        "options": [
+            "Wangan Midnight",
+            "Kino no Tabi",
+            "Cowboy Bebop",
+            "Initial D"
+        ],
+        "answer": "Initial D"
+    },
+    {
+        "id": 51,
+        "question": "In the anime Initial D, how does Takumi Fujiwara describe a drift?",
+        "options": [
+            "'. . . the wheels lose traction, making the car slide sideways'",
+            "'. . . the car oversteers through a curve, causing it to turn faster'",
+            "'. . . you turn a lot'",
+            "'. . . the front tires slide so the car won't face the inside'"
+        ],
+        "answer": "'. . . the front tires slide so the car won't face the inside'"
+    },
+    {
+        "id": 52,
+        "question": "In \"Inuyasha\", what are the heros are looking to collect?",
+        "options": [
+            "Dragon Balls",
+            "Rave Stones",
+            "Sacred Stones",
+            "Jewel Shards"
+        ],
+        "answer": "Jewel Shards"
+    },
+    {
+        "id": 53,
+        "question": "What is the name of the corgi in Cowboy Bebop?",
+        "options": [
+            "Edward",
+            "Rocket",
+            "Joel",
+            "Einstein"
+        ],
+        "answer": "Einstein"
+    },
+    {
+        "id": 54,
+        "question": "Which band name isn't a Stand in \"JoJo's Bizzare Adventure\"?",
+        "options": [
+            "Green Day",
+            "Survivor",
+            "Red Hot Chili Peppers",
+            "AC/DC"
+        ],
+        "answer": "AC/DC"
+    },
+    {
+        "id": 55,
+        "question": "Which song was the callsign for Stefan Verdemann's KWFM radio station in Urasawa Naoki's \"Monster\"?",
+        "options": [
+            "What a Wonderful World",
+            "When You Wish Upon A Star",
+            "Singing In The Rain",
+            "Over the Rainbow"
+        ],
+        "answer": "Over the Rainbow"
+    },
+    {
+        "id": 56,
+        "question": "What song plays in the ending credits of the anime \"Ergo Proxy\"?",
+        "options": [
+            "Sadistic Summer",
+            "Bittersweet Symphony",
+            "Mad World",
+            "Paranoid Android"
+        ],
+        "answer": "Paranoid Android"
+    },
+    {
+        "id": 57,
+        "question": "In the anime Noragami who is one of the main protagonists?",
+        "options": [
+            "Karuha",
+            "Mineha",
+            "Mayu",
+            "Yukine"
+        ],
+        "answer": "Yukine"
+    },
+    {
+        "id": 58,
+        "question": "In the anime Seven Deadly Sins what is the name of one of the sins?",
+        "options": [
+            "Sakura",
+            "Ayano",
+            "Sheska",
+            "Diane"
+        ],
+        "answer": "Diane"
+    },
+    {
+        "id": 59,
+        "question": "In \"The Melancholy of Haruhi Suzumiya\" series, the SOS Brigade club leader is unknowingly treated as a(n) __ by her peers.",
+        "options": [
+            "Alien",
+            "Time Traveler",
+            "Esper",
+            "God"
+        ],
+        "answer": "God"
+    },
+    {
+        "id": 60,
+        "question": "In the \"Toaru Majutsu no Index\" anime, Touma Kamijou is a level 0 esper that has the ability to do what?",
+        "options": [
+            "Teleport",
+            "Make telepathic communications",
+            "Create electricity from his own body",
+            "Dispell any esper or magical powers"
+        ],
+        "answer": "Dispell any esper or magical powers"
+    },
+    {
+        "id": 61,
+        "question": "In \"A Certain Scientific Railgun\", how many \"sisters\" did Accelerator have to kill to achieve the rumored level 6?",
+        "options": [
+            "128",
+            "10,000",
+            "5,000",
+            "20,000"
+        ],
+        "answer": "20,000"
+    },
+    {
+        "id": 62,
+        "question": "In Digimon, what is the Japanese name for the final evolutionary stage?",
+        "options": [
+            "Mega",
+            "Adult",
+            "Champion",
+            "Ultimate"
+        ],
+        "answer": "Ultimate"
+    },
+    {
+        "id": 63,
+        "question": "Medaka Kurokami from \"Medaka Box\" has what abnormality?",
+        "options": [
+            "Perfection",
+            "Sandbox",
+            "Fairness",
+            "The End"
+        ],
+        "answer": "The End"
+    },
+    {
+        "id": 64,
+        "question": "Satella in \"Re:Zero\" is the witch of what?",
+        "options": [
+            "Pride",
+            "Sloth",
+            "Wrath",
+            "Envy"
+        ],
+        "answer": "Envy"
+    },
+    {
+        "id": 65,
+        "question": "In \"One Piece\", who is the girl who overcame her enslaved past and became an agent of an army to fight the corrupt government?",
+        "options": [
+            "Boa Hancock",
+            "Nico Robin",
+            "Emporio Ivankov ",
+            "Koala"
+        ],
+        "answer": "Koala"
+    },
+    {
+        "id": 66,
+        "question": "In \"One Piece\", who confirms the existence of the legendary treasure, One Piece?",
+        "options": [
+            "Former Marine Fleet Admiral Sengoku",
+            "Pirate King Gol D Roger",
+            "Silvers Rayleigh",
+            "Edward \"Whitebeard\" Newgate"
+        ],
+        "answer": "Edward \"Whitebeard\" Newgate"
+    },
+    {
+        "id": 67,
+        "question": "In \"Toriko\", which of the following foods is knowingly compatible with Toriko?",
+        "options": [
+            "Mors Oil",
+            "Alpacookie",
+            "Parmesansho Fruit",
+            "Poison Potato"
+        ],
+        "answer": "Poison Potato"
+    },
+    {
+        "id": 68,
+        "question": "Who voices the character \"Reigen\"  in the English dub of \"Mob Psycho 100\"?",
+        "options": [
+            "Max Mittelman",
+            "Kyle McCarley",
+            "Casey Mongillo",
+            "Chris Niosi"
+        ],
+        "answer": "Chris Niosi"
+    },
+    {
+        "id": 69,
+        "question": "What year did \"Bishoujo Senshi Sailor Moon\" air in Japan?",
+        "options": [
+            "1989",
+            "1990",
+            "1994",
+            "1992"
+        ],
+        "answer": "1992"
+    },
+    {
+        "id": 70,
+        "question": "\"Silhouette\", a song performed by the group 'KANA-BOON' is featured as the sixteenth opening of which anime?",
+        "options": [
+            "One Piece",
+            "Naruto",
+            "Gurren Lagann",
+            "Naruto: Shippūden"
+        ],
+        "answer": "Naruto: Shippūden"
+    },
+    {
+        "id": 71,
+        "question": "In \"To Love-Ru: Darkness\", which of the girls attempt making a harem for Rito Yuuki?",
+        "options": [
+            "Yami (Golden Darkness)",
+            "Haruna Sairenji",
+            "Mea Kurosaki",
+            "Momo Deviluke"
+        ],
+        "answer": "Momo Deviluke"
+    },
+    {
+        "id": 72,
+        "question": "In the \"To Love-Ru\" series, how many Trans-weapons were created?",
+        "options": [
+            "1",
+            "2",
+            "4",
+            "3"
+        ],
+        "answer": "3"
+    },
+    {
+        "id": 73,
+        "question": "In Haikyuu!!, who is not a member of Karasuno VBC?",
+        "options": [
+            "Tadashi Yamaguchi",
+            "Hisashi Kinoshita",
+            "Kazuhito Narita",
+            "Shigeru Yahaba"
+        ],
+        "answer": "Shigeru Yahaba"
+    },
+    {
+        "id": 74,
+        "question": "In 2013, virtual pop-star Hatsune Miku had a sponsorship with which pizza chain?",
+        "options": [
+            "Papa John's",
+            "Pizza Hut",
+            "Sabarro's",
+            "Domino's"
+        ],
+        "answer": "Domino's"
+    },
+    {
+        "id": 75,
+        "question": "In \"Jewelpet Sunshine\", what is the song that plays when Kanon and her friends bust out of prison?",
+        "options": [
+            "Eye Of The Tiger",
+            "Born to be Wild",
+            "Ruby Ring",
+            "I Don't Want to Miss a Thing"
+        ],
+        "answer": "I Don't Want to Miss a Thing"
+    },
+    {
+        "id": 76,
+        "question": "What animation studio produced \"Gurren Lagann\"?",
+        "options": [
+            "Kyoto Animation",
+            "Pierrot",
+            "A-1 Pictures",
+            "Gainax"
+        ],
+        "answer": "Gainax"
+    },
+    {
+        "id": 77,
+        "question": "In which manga did the \"404 Girl\" from 4chan originate from?",
+        "options": [
+            "Azumanga Daioh",
+            "Lucky Star",
+            "Clover",
+            "Yotsuba&!"
+        ],
+        "answer": "Yotsuba&!"
+    },
+    {
+        "id": 78,
+        "question": "Which animation studio animated \"Psycho Pass\"?",
+        "options": [
+            "Kyoto Animation",
+            "Shaft",
+            "Trigger",
+            "Production I.G"
+        ],
+        "answer": "Production I.G"
+    },
+    {
+        "id": 79,
+        "question": "Which Japanese music group was formed to produce theme music for the anime \"Guilty Crown\"?",
+        "options": [
+            "Goose house",
+            "Babymetal",
+            "Garnidelia",
+            "Egoist"
+        ],
+        "answer": "Egoist"
+    },
+    {
+        "id": 80,
+        "question": "Who is the main heroine of the anime, Full Metal Panic!",
+        "options": [
+            "Teletha Testarossa",
+            "Melissa Mao",
+            "Kyoko Tokiwa",
+            "Kaname Chidori"
+        ],
+        "answer": "Kaname Chidori"
+    },
+    {
+        "id": 81,
+        "question": "Who was the Author of the manga Monster Hunter Orage?",
+        "options": [
+            "Shin Yamamoto",
+            "Keiichi Hikami",
+            "Hirohiko Araki",
+            "\tHiro Mashima"
+        ],
+        "answer": "\tHiro Mashima"
+    },
+    {
+        "id": 82,
+        "question": "In the series JoJo's Bizarre Adventure, which main character makes the greatest number of recurring appearances?",
+        "options": [
+            "Giorno Giovanna",
+            "Joseph Joestar",
+            "Josuke Higashikata",
+            "Jotaro Kujo"
+        ],
+        "answer": "Jotaro Kujo"
+    },
+    {
+        "id": 83,
+        "question": "In the anime series \"Full Metal Alchemist\", what do Alchemists consider the greatest taboo?",
+        "options": [
+            "Transmuting Lead Into Gold",
+            "Using Alchemy For Crime ",
+            "Preforming Without A Permit",
+            "Human Transmutation "
+        ],
+        "answer": "Human Transmutation "
+    },
+    {
+        "id": 84,
+        "question": "What is the name of the stuffed lion in Bleach?",
+        "options": [
+            "Jo",
+            "Urdiu",
+            "Chad",
+            "Kon"
+        ],
+        "answer": "Kon"
+    },
+    {
+        "id": 85,
+        "question": "In the 9th Pokemon movie, who is the Prince of the Sea?",
+        "options": [
+            "Ash",
+            "May",
+            "Phantom",
+            "Manaphy"
+        ],
+        "answer": "Manaphy"
+    },
+    {
+        "id": 86,
+        "question": "In \"Shakugan no Shana\" what was the Shana usually referred as?",
+        "options": [
+            "Flame Haze",
+            "Flame-Haired Burning-Eyed Haze",
+            "Shana",
+            "Flame-Haired Burning-Eyed Hunter"
+        ],
+        "answer": "Flame-Haired Burning-Eyed Hunter"
+    },
+    {
+        "id": 87,
+        "question": "In \"Highschool of the Dead\", where did Komuro and Saeko establish to meet after the bus explosion?",
+        "options": [
+            "The Center Mall",
+            "Komuro's House",
+            "On The Main Bridge",
+            "Eastern Police Station"
+        ],
+        "answer": "Eastern Police Station"
+    },
+    {
+        "id": 88,
+        "question": "What is the last line muttered in the anime film \"The End of Evangelion\"?",
+        "options": [
+            "\"Idiot, I won't let you kill me!\"",
+            "\"Nothing.\"",
+            "\"Goddammit, Shinji.\"",
+            "\"How disgusting.\""
+        ],
+        "answer": "\"How disgusting.\""
+    },
+    {
+        "id": 89,
+        "question": "The main antagonist of the second part of JoJo's Bizarre Adventure is which of the following?",
+        "options": [
+            "Erina Joestar",
+            "Santana",
+            "Wired Beck",
+            "Kars"
+        ],
+        "answer": "Kars"
+    },
+    {
+        "id": 90,
+        "question": "Winch of these names are not a character of JoJo's Bizarre Adventure?",
+        "options": [
+            "Jean-Pierre Polnareff",
+            "George Joestar",
+            "Risotto Nero",
+            "JoJo Kikasu"
+        ],
+        "answer": "JoJo Kikasu"
+    },
+    {
+        "id": 91,
+        "question": "Which of the following anime of the mecha genre began airing in 1982?",
+        "options": [
+            "Mobile Suit Gundam",
+            "Armored Trooper VOTOMS",
+            "Neon Genesis Evangelion",
+            "The Super Dimension Fortress Macross"
+        ],
+        "answer": "The Super Dimension Fortress Macross"
+    },
+    {
+        "id": 92,
+        "question": "Which of the following manga have the most tankouban volumes?",
+        "options": [
+            "JoJo's Bizarre Adventure",
+            "Detective Conan",
+            "One Piece",
+            "Golgo 13"
+        ],
+        "answer": "Golgo 13"
+    },
+    {
+        "id": 93,
+        "question": "The characters of \"Log Horizon\" are trapped in what game?",
+        "options": [
+            "Sword Art Online",
+            "Tower Unite",
+            "Yggdrasil",
+            "Elder Tale"
+        ],
+        "answer": "Elder Tale"
+    },
+    {
+        "id": 94,
+        "question": "Which anime did Seiji Kishi NOT direct?",
+        "options": [
+            "Humanity Has Declined",
+            "Assassination Classroom",
+            "Danganronpa: The Animation",
+            "Another"
+        ],
+        "answer": "Another"
+    },
+    {
+        "id": 95,
+        "question": "Ikki Kurogane is known by what nickname at the beginning of \"Chivalry of a Failed Knight\"?",
+        "options": [
+            "Another One",
+            "Blazer",
+            "Princess",
+            "Worst One"
+        ],
+        "answer": "Worst One"
+    },
+    {
+        "id": 96,
+        "question": "In \"One Piece\", which one of the following is NOT an Ancient Weapon?",
+        "options": [
+            "Uranus",
+            "Poseidon",
+            "Pluton",
+            "Jupiter"
+        ],
+        "answer": "Jupiter"
+    },
+    {
+        "id": 97,
+        "question": "In the \"Dragon Ball\" franchise, what is the name of Goku's brother?",
+        "options": [
+            "Gohan",
+            "Vegeta",
+            "Bardock",
+            "Raditz"
+        ],
+        "answer": "Raditz"
+    },
+    {
+        "id": 98,
+        "question": "Who is the creator of the manga series \"One Piece\"?",
+        "options": [
+            "Yoshihiro Togashi",
+            "Hayao Miyazaki",
+            "Masashi Kishimoto",
+            "Eiichiro Oda"
+        ],
+        "answer": "Eiichiro Oda"
+    },
+    {
+        "id": 99,
+        "question": "In \"To Love-Ru\", Ren and Run are from what planet?",
+        "options": [
+            "Deviluke",
+            "Mistletoe",
+            "Okiwana",
+            "Memorze"
+        ],
+        "answer": "Memorze"
+    },
+    {
+        "id": 100,
+        "question": "In \"Highschool DxD\", Koneko Toujou is from what race?",
+        "options": [
+            "Kitsune",
+            "Human",
+            "Kappa",
+            "Nekomata"
+        ],
+        "answer": "Nekomata"
+    },
+    {
+        "id": 101,
+        "question": "In \"Black Lagoon\", what colour is Rock's tie?",
+        "options": [
+            "Crimson",
+            "Dark Brown",
+            "Black",
+            "Teal"
+        ],
+        "answer": "Teal"
+    },
+    {
+        "id": 102,
+        "question": "Which animation studio animated \"Hidamari Sketch\"?",
+        "options": [
+            "Trigger",
+            "Kyoto Animation",
+            "Production I.G",
+            "Shaft"
+        ],
+        "answer": "Shaft"
+    },
+    {
+        "id": 103,
+        "question": "Which animation studio produced \"Log Horizon\"?",
+        "options": [
+            "Sunrise",
+            "Xebec",
+            "Production I.G",
+            "Satelite"
+        ],
+        "answer": "Satelite"
+    },
+    {
+        "id": 104,
+        "question": "Which animation studio produced \"Sword Art Online\"?",
+        "options": [
+            "Production I.G",
+            "Silver Link",
+            "Kyoto Animation",
+            "A-1 Pictures"
+        ],
+        "answer": "A-1 Pictures"
+    },
+    {
+        "id": 105,
+        "question": "Which studio animated Afro Samurai?",
+        "options": [
+            "Kyoto Animation",
+            "xebec",
+            "Production I.G",
+            "Gonzo"
+        ],
+        "answer": "Gonzo"
+    },
+    {
+        "id": 106,
+        "question": "What is the name of JoJo's Bizarre Adventure Part 5?",
+        "options": [
+            "Vento Oreo",
+            "Vanto Aureo",
+            "Vento Eureo",
+            "Vento Aureo"
+        ],
+        "answer": "Vento Aureo"
+    },
+    {
+        "id": 107,
+        "question": "In JoJo's Bizarre Adventure, who says \"Yare yare daze\"?",
+        "options": [
+            "Joseph Joestar",
+            "Jolyne Cujoh",
+            "Koichi Hirose",
+            "Jotaro Kujo"
+        ],
+        "answer": "Jotaro Kujo"
+    },
+    {
+        "id": 108,
+        "question": "Who wrote and directed the animated movie \"Spirited Away\" (2001)?",
+        "options": [
+            "Isao Takahata",
+            "Mamoru Hosoda",
+            "Hidetaka Miyazaki",
+            "Hayao Miyazaki"
+        ],
+        "answer": "Hayao Miyazaki"
+    },
+    {
+        "id": 109,
+        "question": "When was the first episode of Soul Eater released?",
+        "options": [
+            "2003",
+            "2005",
+            "2011",
+            "2008"
+        ],
+        "answer": "2008"
+    },
+    {
+        "id": 110,
+        "question": "In the anime, \"Super Sonico\", what is Super Sonico's favorite food?",
+        "options": [
+            "Ice Cream",
+            "Pizza",
+            "Chips",
+            "Macroons"
+        ],
+        "answer": "Macroons"
+    },
+    {
+        "id": 111,
+        "question": "Which of the following countries does \"JoJo's Bizarre Adventure: Stardust Crusaders\" not take place in?",
+        "options": [
+            "India",
+            "Pakistan",
+            "Egypt",
+            "Philippines"
+        ],
+        "answer": "Philippines"
+    },
+    {
+        "id": 112,
+        "question": "What year was \"JoJo's Bizarre Adventure: Phantom Blood\" first released?",
+        "options": [
+            "2013",
+            "1983",
+            "1995",
+            "1987"
+        ],
+        "answer": "1987"
+    },
+    {
+        "id": 113,
+        "question": "In \"Future Diary\", what is the name of Yuno Gasai's Phone Diary?",
+        "options": [
+            "Murder Diary",
+            "Escape Diary ",
+            "Justice Diary ",
+            "Yukiteru Diary"
+        ],
+        "answer": "Yukiteru Diary"
+    },
+    {
+        "id": 114,
+        "question": "Which animation studio animated the 2016 anime \"Mob Psycho 100\"?",
+        "options": [
+            "A-1 Pictures",
+            "Shaft",
+            "Madhouse",
+            "Bones"
+        ],
+        "answer": "Bones"
+    },
+    {
+        "id": 115,
+        "question": "On what medium was \"Clannad\" first created?",
+        "options": [
+            "Anime",
+            "Manga",
+            "Light novel",
+            "Visual novel"
+        ],
+        "answer": "Visual novel"
+    },
+    {
+        "id": 116,
+        "question": "What year did \"Attack on Titan\" Season 2 begin airing?",
+        "options": [
+            "2018",
+            "2019",
+            "2020",
+            "2017"
+        ],
+        "answer": "2017"
+    },
+    {
+        "id": 117,
+        "question": "The character Momonga from the \"Overlord\" series orders his servants to call him by what name?",
+        "options": [
+            "Master",
+            "Yggdrasil",
+            "Kugane Maruyama",
+            "Ainz Ooal Gown"
+        ],
+        "answer": "Ainz Ooal Gown"
+    },
+    {
+        "id": 118,
+        "question": "What was studio Trigger's first original long-form animated series for television?",
+        "options": [
+            "Kiznaiver",
+            "Inferno Cop",
+            "Gurren Lagann",
+            "Kill la Kill"
+        ],
+        "answer": "Kill la Kill"
+    },
+    {
+        "id": 119,
+        "question": "The heroine of \"Humanity Has Declined\" is a mediator between humans and what?",
+        "options": [
+            "Elves",
+            "The Earth",
+            "Animals",
+            "Fairies"
+        ],
+        "answer": "Fairies"
+    },
+    {
+        "id": 120,
+        "question": "Krusty is the guild master of which guild in \"Log Horizon\"?",
+        "options": [
+            "Silver Sword",
+            "West Wind Brigade",
+            "Oceanic Systems (Marine Agency)",
+            "D. D. D"
+        ],
+        "answer": "D. D. D"
+    },
+    {
+        "id": 121,
+        "question": "In \"Hunter x Hunter\", which of the following is NOT a type of Nen aura?",
+        "options": [
+            "Emission",
+            "Transmutation",
+            "Specialization",
+            "Restoration"
+        ],
+        "answer": "Restoration"
+    },
+    {
+        "id": 122,
+        "question": "The \"To Love-Ru\" Manga was started in what year?",
+        "options": [
+            "2007",
+            "2004",
+            "2005",
+            "2006"
+        ],
+        "answer": "2006"
+    },
+    {
+        "id": 123,
+        "question": "In the Overlord Anime who was Cocytus made by?",
+        "options": [
+            "Peroroncino",
+            "Ulbert Alain Odle",
+            "Bukubukuchagama",
+            "Warrior Takemikazuchi"
+        ],
+        "answer": "Warrior Takemikazuchi"
+    },
+    {
+        "id": 124,
+        "question": "How does the character Dragowizard, Qinus Axia's from the anime \"Buddyfight\" differ between the Japanese and English dubs?",
+        "options": [
+            "Different Body Proportions",
+            "Different Backstory",
+            "Different Appearance",
+            "Different Gender"
+        ],
+        "answer": "Different Gender"
+    },
+    {
+        "id": 125,
+        "question": "Who is the horror manga artist who made Uzumaki?",
+        "options": [
+            "Kazuo Umezu",
+            "Shintaro Kago",
+            "Sui Ishida",
+            "Junji Ito"
+        ],
+        "answer": "Junji Ito"
+    },
+    {
+        "id": 126,
+        "question": "Who was given the title \"Full Metal\" in the anime series \"Full Metal Alchemist\"?",
+        "options": [
+            "Alphonse Elric",
+            "Van Hohenheim",
+            "Izumi Curtis",
+            "Edward Elric"
+        ],
+        "answer": "Edward Elric"
+    },
+    {
+        "id": 127,
+        "question": "In \"Fairy Tail\", what is the nickname of Natsu Dragneel?",
+        "options": [
+            "The Dragon Slayer",
+            "The Dragon",
+            "The Demon",
+            "The Salamander"
+        ],
+        "answer": "The Salamander"
+    },
+    {
+        "id": 128,
+        "question": "The main protagonist of the fifth part of JoJo's Bizarre Adventure is which of the following?",
+        "options": [
+            "Guido Mista",
+            "Jonathan Joestar",
+            "Joey JoJo",
+            "Giorno Giovanna"
+        ],
+        "answer": "Giorno Giovanna"
+    },
+    {
+        "id": 129,
+        "question": "In JoJo's Bizarre Adventure, winch character is able to accelerate time?",
+        "options": [
+            "Jotaro Kujo",
+            "Jolyne Cujoh",
+            "Kujo Jotaro",
+            "Enrico Pucci"
+        ],
+        "answer": "Enrico Pucci"
+    },
+    {
+        "id": 130,
+        "question": "What sport is being played in the Anime Eyeshield 21?",
+        "options": [
+            "Baseball",
+            "Football",
+            "Basketball",
+            "American Football"
+        ],
+        "answer": "American Football"
+    },
+    {
+        "id": 131,
+        "question": "The character Plum from \"No Game No Life\" is of what race?",
+        "options": [
+            "Flügel",
+            "Imanity",
+            "Seiren",
+            "Dhampir"
+        ],
+        "answer": "Dhampir"
+    },
+    {
+        "id": 132,
+        "question": "What year did \"Attack on Titan\" first air?",
+        "options": [
+            "2014",
+            "2012",
+            "2015",
+            "2013"
+        ],
+        "answer": "2013"
+    },
+    {
+        "id": 133,
+        "question": "What is the name of the protagonist of the 2017 anime \"Land of the Lustrous\"?",
+        "options": [
+            "Watermelon Tourmaline",
+            "Cinnabar",
+            "Padparadscha",
+            "Phosphophyllite"
+        ],
+        "answer": "Phosphophyllite"
+    },
+    {
+        "id": 134,
+        "question": "In the first episode of Yu-Gi-Oh: Duel Monsters, what book is Seto Kaiba seen reading at Domino High School?",
+        "options": [
+            "Beyond Good and Evil",
+            "The Republic",
+            "Meditations",
+            "Thus Spoke Zarathustra"
+        ],
+        "answer": "Thus Spoke Zarathustra"
+    },
+    {
+        "id": 135,
+        "question": "Which JoJo's Bizarre Adventure character possesses the Stand named Silver Chariot?",
+        "options": [
+            "Noriaki Kakyoin",
+            "Hol Horse",
+            "Hermes Costello",
+            "Jean Pierre Polnareff"
+        ],
+        "answer": "Jean Pierre Polnareff"
+    },
+    {
+        "id": 136,
+        "question": "The name of Junko Enoshima's imposter at the beginning of Danganronpa: Trigger Happy Havoc is?",
+        "options": [
+            "Ryota Mitarai",
+            "Ultimate Imposter",
+            "Komaru Naegi",
+            "Mukuro Ikusaba"
+        ],
+        "answer": "Mukuro Ikusaba"
+    },
+    {
+        "id": 137,
+        "question": "The two main characters of \"No Game No Life\", Sora and Shiro, together go by what name?",
+        "options": [
+            "Immanity",
+            "Disboard",
+            "Warbeasts",
+            "Blank"
+        ],
+        "answer": "Blank"
+    },
+    {
+        "id": 138,
+        "question": "What is the theme song of \"Neon Genesis Evangelion\"?",
+        "options": [
+            "Stardust Crusaders",
+            "Requiem for a Dream",
+            "God Knows",
+            "A Cruel Angel's Thesis"
+        ],
+        "answer": "A Cruel Angel's Thesis"
+    },
+    {
+        "id": 139,
+        "question": "Which of the following films was NOT directed by Hayao Miyazaki?",
+        "options": [
+            "Princess Mononoke",
+            "Spirited Away",
+            "Kiki's Delivery Service",
+            "Wolf Children"
+        ],
+        "answer": "Wolf Children"
+    },
+    {
+        "id": 140,
+        "question": "What is the name of the main character of the anime \"One-Punch Man\"?",
+        "options": [
+            "Genos",
+            "Sonic",
+            "King",
+            "Saitama"
+        ],
+        "answer": "Saitama"
+    },
+    {
+        "id": 141,
+        "question": "Who is the main character with yellow hair in the anime Naruto?",
+        "options": [
+            "Ten Ten",
+            "Sasuke",
+            "Kakashi",
+            "Naruto"
+        ],
+        "answer": "Naruto"
+    },
+    {
+        "id": 142,
+        "question": "In Ms. Kobayashi's Dragon Maid, who is Kobayashi's maid?",
+        "options": [
+            "Lucoa",
+            "Kanna",
+            "Elma",
+            "Tohru"
+        ],
+        "answer": "Tohru"
+    },
+    {
+        "id": 143,
+        "question": "What studio animated Fullmetal Alchemist?",
+        "options": [
+            "Trigger",
+            "Pierrot",
+            "xebec",
+            "Bones"
+        ],
+        "answer": "Bones"
+    },
+    {
+        "id": 144,
+        "question": "Which of these is not a world in the anime \"Buddyfight\"?",
+        "options": [
+            "Dragon World",
+            "Star Dragon World",
+            "Darkness Dragon World",
+            "Ancient Dragon World"
+        ],
+        "answer": "Ancient Dragon World"
+    },
+    {
+        "id": 145,
+        "question": "What is the age of Ash Ketchum in Pokemon when he starts his journey?",
+        "options": [
+            "11",
+            "12",
+            "9",
+            "10"
+        ],
+        "answer": "10"
+    },
+    {
+        "id": 146,
+        "question": "Which of the following originated as a manga?",
+        "options": [
+            "Cowboy Bebop",
+            "High School DxD",
+            "Gurren Lagann",
+            "Akira"
+        ],
+        "answer": "Akira"
+    },
+    {
+        "id": 147,
+        "question": "Who was the Author of the manga Uzumaki?",
+        "options": [
+            "\tNoboru Takahashi",
+            "Akira Toriyama",
+            "Masashi Kishimoto",
+            "Junji Ito"
+        ],
+        "answer": "Junji Ito"
+    },
+    {
+        "id": 148,
+        "question": "In \"One Piece\", what does \"the Pirate King\" mean to the captain of the Straw Hat Pirates?",
+        "options": [
+            "Promise",
+            "Adventure",
+            "Friendship",
+            "Freedom"
+        ],
+        "answer": "Freedom"
+    },
+    {
+        "id": 149,
+        "question": "Which studio animated Soul Eater?",
+        "options": [
+            "Kyoto Animation",
+            "xebec",
+            "Production I.G",
+            "Bones"
+        ],
+        "answer": "Bones"
+    },
+    {
+        "id": 150,
+        "question": "Who is the main character in One Piece?",
+        "options": [
+            "Shanks",
+            "Zoro",
+            "Smoker",
+            "Luffy"
+        ],
+        "answer": "Luffy"
+    },
+    {
+        "id": 151,
+        "question": "In \"JoJo's Bizarre Adventure\", which of the following Stands does NOT have a time-based ability?",
+        "options": [
+            "Made in Heaven",
+            "Star Platinum",
+            "The World",
+            "20th Century Boy"
+        ],
+        "answer": "20th Century Boy"
+    },
+    {
+        "id": 152,
+        "question": "Which one of these Manga titles was not created by Urasawa Naoki?",
+        "options": [
+            "Billy Bat",
+            "20th Century Boys",
+            "Monster",
+            "My Father's Journal"
+        ],
+        "answer": "My Father's Journal"
+    },
+    {
+        "id": 153,
+        "question": "In \"JoJo's Bizzare Adventure: Stardust Crusaders\", what is the last name of the protagonist Jotaro?",
+        "options": [
+            "Cujoh",
+            "Joestar",
+            "Higashikata",
+            "Kujo"
+        ],
+        "answer": "Kujo"
+    },
+    {
+        "id": 154,
+        "question": "Aoi Miyamori is the production manager of what anime in \"Shirobako\"?",
+        "options": [
+            "Exodus!",
+            "Andes Chucky",
+            "Angel Beats!",
+            "The Third Aerial Girls Squad"
+        ],
+        "answer": "The Third Aerial Girls Squad"
+    },
+    {
+        "id": 155,
+        "question": "In the \"Sailor Moon\" series, what is Sailor Jupiter's civilian name?",
+        "options": [
+            "Minako Aino",
+            "Usagi Tsukino",
+            "Rei Hino",
+            "Makoto Kino"
+        ],
+        "answer": "Makoto Kino"
+    },
+    {
+        "id": 156,
+        "question": "What name is the main character Chihiro given in the 2001 movie \"Spirited Away\"?",
+        "options": [
+            "Hyaku (Hundred)",
+            "Ichiman (Ten thousand)",
+            "Juu (Ten)",
+            "Sen (Thousand)"
+        ],
+        "answer": "Sen (Thousand)"
+    },
+    {
+        "id": 157,
+        "question": "What studio animated Ouran High School Host Club?",
+        "options": [
+            "Production I.G",
+            "Kyoto Animation",
+            "xebec",
+            "Bones"
+        ],
+        "answer": "Bones"
+    },
+    {
+        "id": 158,
+        "question": "How many \"JoJos\" that are protagonists are there in the series \"Jojo's Bizarre Adventure\"?",
+        "options": [
+            "6",
+            "4",
+            "5",
+            "8"
+        ],
+        "answer": "8"
+    }
+]
