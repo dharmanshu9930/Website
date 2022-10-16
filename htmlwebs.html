@@ -5,14 +5,26 @@
 <head>
 <title>Employee Interests Survey</title>
 <style>
-    body{
-        background-image:url("https://c4.wallpaperflare.com/wallpaper/500/198/463/pixel-art-digital-art-pixelated-pixels-wallpaper-preview.jpg");
+     body{
+        background-color: lavender;
         background-repeat: no-repeat;
-        background-size: 140% 200%;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-weight:bolder;
-        align-items:stretch
+        align-items:stretch;
     }
+   div{ background-image: url("https://images.pexels.com/photos/8566531/pexels-photo-8566531.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        background-size: 40% 90%;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    input[type=button],
+      input[type=submit] {
+        background-color: #62529c;
+        padding: 15px 30px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;}
+        
 </style>
 </head>
 <body>
@@ -20,7 +32,7 @@
 <!-- We can give absolute url, or relative url like /nextpage.jsp, and specify POST or GET method -->
 <form action="http://google.co.in">
 <!-- If we remove this, every thing will move to the left of the page-->
-<div align="center">
+<div>
 <!--Adds a heading to the form-->
 <h1>Employee Interests Survey form</h1>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter your name:
@@ -39,10 +51,10 @@ Do you exercise at home?<!-- Radio buttons help you choose one out of the many v
 How do you like to read about your favorite topics?
 <p>
 <!--Checkbox lets you select multiple options -->
-<input type="checkbox" name="Books">Books&nbsp;&nbsp;
-<input type="checkbox" name="Web">Online resources&nbsp;&nbsp;
-<input type="checkbox" name="Phone">Phone apps&nbsp;&nbsp;
-<input type="checkbox" name="Magazines">Magazines
+<input type="checkbox" name="Books">Books&nbsp;&nbsp;<br>
+<input type="checkbox" name="Web">Online resources&nbsp;&nbsp;<br>
+<input type="checkbox" name="Phone">Phone apps&nbsp;&nbsp;<br>
+<input type="checkbox" name="Magazines">Magazines<br>
 </p>
 What genre of movies do you like?
 <!--Select box lets you choose one of the multiple dropdown options-->
@@ -55,7 +67,7 @@ What genre of movies do you like?
 </select>
 </br></br>
 <!--submits the information entered in the form by the user -->
-<input type=submit value="Submit form">
+<input type=submit value="Submit form" >
 </div>
 </form>
 </body>
