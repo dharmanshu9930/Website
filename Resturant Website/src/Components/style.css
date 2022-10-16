@@ -1,0 +1,627 @@
+* a {
+    text-decoration: none;
+}
+
+section {
+    padding: 1rem 5%;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 1.5rem 5%;
+    background-color: black;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 123;
+    min-height: 13vh;
+    max-height: 20vh;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 1rem;
+    font-size: 1rem;
+}
+
+.navbar a:hover {
+    color: tomato;
+}
+
+.navbar h5 {
+    font-size: 1rem;
+    color: white;
+}
+
+#searc {
+    position: relative;
+}
+
+#searc input {
+    width: 27rem;
+    padding: .3rem;
+    font-size: 1rem;
+    outline: none;
+    color: tomato;
+}
+
+#searc i {
+    position: absolute;
+    top: 25%;
+    color: black;
+    right: 4%;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+#searc i:hover {
+    color: tomato;
+}
+
+.logo span {
+    color: tomato;
+    padding: 0rem .5rem;
+    font-size: 1.5rem;
+}
+
+.logo span:hover {
+    color: white;
+}
+
+.logo img {
+    height: 3rem;
+}
+
+.icons {
+    display: none;
+}
+
+.icons div {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.icons div:hover {
+    color: tomato;
+}
+
+header .search-form {
+    position: absolute;
+    top: 100%;
+    background: white;
+    display: flex;
+    align-items: center;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+
+header .search-form.active {
+    transform: scaleY(1);
+    transition: 300ms;
+}
+
+header .search-form input {
+    width: 30rem;
+    height: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    position: relative;
+    outline: none;
+}
+
+header .search-form label {
+    position: absolute;
+    right: 5%;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+header .search-form label:hover {
+    color: tomato;
+}
+
+/* Main Section */
+
+.main {
+    margin-top: 5rem;
+    min-height: 90vh;
+    background: url("https://www.teahub.io/photos/full/283-2837480_high-resolution-restaurant-background-images-hd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.content {
+    margin: 10% 10%;
+}
+
+.content h3 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: rgb(93, 78, 182);
+}
+
+.content h3 span {
+    color: white;
+}
+
+.content h1 span {
+    font-weight: 800;
+    font-size: 3rem;
+    color: tomato;
+}
+
+.content h1 {
+    color: white;
+}
+
+.content .btn {
+    background-color: rgb(93, 78, 182);
+    color: white;
+}
+
+.content .btn:hover {
+    background-color: tomato;
+}
+
+/* Search Result */
+
+#sea {
+    position: absolute;
+    display: none;
+    z-index: 12300;
+    height: fit-content;
+    max-height: 10rem;
+    overflow-y: scroll;
+    margin-top: 10vh;
+    width:27.2rem;
+    top:1.5vh;
+    right: 37%;
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+/* Scrollbar Hidden Property Setting */
+/* #sea::-webkit-scrollbar { 
+    display: none;  
+} */
+
+#sea ul {
+    margin: 0;
+    padding: 0;
+}
+
+#result li {
+    list-style: none;
+    padding-left: .2rem;
+    padding-top: 0;
+    color: rgb(93, 78, 182);
+    cursor: pointer;
+    font-size: .8rem;
+    line-height: 2rem;
+}
+
+#result li:hover {
+    background-color: tomato;
+    transform: scaleY(1.1);
+}
+
+#detailContainer {
+    border: 1px solid white;
+    text-align: center;
+    background: black;
+    color: tomato;
+    padding: 2% 5%;
+    display: none;
+    opacity: .8;
+    border-radius: 20px;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    right: 10%;
+    overflow-y: scroll;
+    max-height: 70vh;
+}
+
+#detailContainer h3 {
+    font-size: 2rem;
+}
+
+#detailContainer h5 {
+    color: white;
+}
+
+#detailContainer #addres {
+    display: flex;
+    justify-content: space-around;
+    color: white
+}
+
+#detailContainer #addres h6 {
+    margin: 1rem;
+}
+
+#opH {
+    width: 100%;
+    text-align: center;
+}
+
+#opH li {
+    list-style: none;
+    color: white;
+    margin-top: 10px;
+}
+
+#review {
+    margin-top: 20px;
+    width: 100%;
+}
+
+#review h4 {
+    color: white;
+}
+
+#review h6 {
+    color: tomato;
+}
+
+#review p {
+    margin-top: 10px;
+    color: white;
+}
+
+#review .fa-star {
+    color: gold;
+}
+
+#detailContainer::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+/* Offers Section */
+#offer {
+    background-color: black;
+    text-align: center;
+}
+
+#offer h1 {
+    font-size: 2.5rem;
+    color: white;
+    margin: 5vh 0;
+}
+
+#offer h1 span {
+    color: tomato;
+}
+
+#offer #box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 1.5rem;
+}
+
+#box-container .box {
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#box-container .box:hover {
+    transform: scale(1.05);
+}
+
+#box-container .box img {
+    max-width: 12rem;
+    height: 10rem;
+}
+
+#box-container .box h3 {
+    color: rgb(212, 64, 64);
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+#box-container .box .price {
+    color: tomato;
+    font-size: 1rem;
+}
+
+#box-container .box .price span {
+    font-size: .9rem;
+    color: white;
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+#box-container .box .btn {
+    border: 1px solid white;
+    padding: .5rem 1rem;
+    margin: 1rem 0rem;
+    color: tomato;
+}
+
+#box-container .box .btn:hover {
+    border: 1px solid rgb(93, 78, 182);
+    color: green;
+    transform: scaleX(1.1);
+    transition: 200ms;
+}
+
+/* LogIn section */
+
+.loginContainer {
+    width: 40%;
+    border: 1px solid white;
+    text-align: center;
+    background: black;
+    color: tomato;
+    padding: 2% 5%;
+    opacity: .8;
+    border-radius: 20px;
+    position: absolute;
+    top: 15%;
+    left: 500%;
+}
+
+.loginContainer:hover {
+    transform: scale(1.05);
+
+}
+
+.loginUser i {
+    margin-left: 30px;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+
+.loginUser i:hover {
+    color: red;
+}
+
+.fa-xmark {
+    display: inline;
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+    top: 1%;
+    right: 4%;
+    cursor: pointer;
+}
+
+.fa-xmark:hover {
+    color: red;
+}
+
+.loginContainer.active {
+    left: 50%;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.login input {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 5px;
+    outline-color: tomato;
+}
+
+.loginContainer .btn {
+    width: 40%;
+    margin: auto;
+    border: 1px solid white;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.loginContainer .btn:hover {
+    border-color: rgb(93, 78, 182);
+    transform: scale(1.05);
+}
+
+.login-register-text a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+/* Sign UP section */
+
+.signContainer {
+    width: 40%;
+    border: 1px solid white;
+    text-align: center;
+    background: black;
+    color: tomato;
+    padding: 2% 5%;
+    opacity: .8;
+    border-radius: 20px;
+    position: absolute;
+    top: 15%;
+    left: 500%;
+}
+
+.signContainer:hover {
+    transform: scale(1.01);
+
+}
+
+.signContainer.active {
+    left: 50%;
+}
+
+.sign {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.sign input {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 5px;
+    outline-color: tomato;
+}
+
+.signContainer .btn {
+    width: 40%;
+    margin: auto;
+    border: 1px solid white;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.signContainer .btn:hover {
+    border-color: rgb(93, 78, 182);
+    transform: scale(1.05);
+}
+
+.navbarActive {
+    display: none;
+}
+
+#sea,
+#result {
+    display: none;
+}
+
+
+
+
+@media (max-width:550px) {
+
+    /* NavBar Settings for small screen */
+    .navbarActive {
+        transition: 300ms ease-out;
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 10rem;
+        height: 45vh;
+        background: black;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+
+    .navbarActive a {
+        color: white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .navbarActive a:hover {
+        color: tomato;
+    }
+
+    .navbarActive.active {
+        right: 0;
+        transition: 300ms;
+    }
+
+    .navbarActive h5 {
+        color: white;
+        margin-top: -15%;
+        font-size: .9rem;
+
+    }
+
+    .loginContainer.active {
+        width: 90%;
+        margin: auto;
+        left: 5%;
+    }
+
+    .signContainer.active {
+        width: 90%;
+        margin: auto;
+        left: 5%;
+    }
+
+    .icons {
+        display: block;
+    }
+
+    header .navbar {
+        display: none;
+    }
+
+    header .search-form {
+        right: 1rem;
+    }
+
+    .content {
+        width: 70vw;
+        margin: 30% 6%;
+    }
+
+    .content h1 {
+        color: rgb(106, 86, 216);
+    }
+
+    .content a {
+        margin-top: 10%;
+    }
+
+    #sea {
+        z-index: 12300;
+        position: absolute;
+        display: none;
+        height: fit-content;
+        max-height: 10rem;
+        overflow-y: scroll;
+        padding: .2rem 0;
+        font-size: 1rem;
+        top: 15vh;
+        left: 2.2rem;
+        width: 30rem;
+        background-color: white;
+    }
+
+    #sea ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    #result li {
+        list-style: none;
+        padding-left: .5rem;
+        padding-top: 0;
+        color: rgb(93, 78, 182);
+        cursor: pointer;
+        line-height: 2rem;
+    }
+
+    #result li:hover {
+        background-color: tomato;
+    }
+
+    #detailContainer {
+        left: 2%;
+        right: 2%;
+    }
+
+}
