@@ -4,6 +4,7 @@
     left: 0px;
     width: 100%;
     color: white;
+
     
 }
 #tsparticles{
@@ -25,6 +26,8 @@
 .board{
    transition: 0.8s;
     box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    margin-left: 20%;
+    
 }
 .board:hover{
     box-shadow: 0px 0px 40px rgb(13, 255, 73);
@@ -32,4 +35,8 @@
 p{
     text-align: right;
     font-size: 2em;
+}
+.head{
+    color: black;
+    text-align: center;
 }
