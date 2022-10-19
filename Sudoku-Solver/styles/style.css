@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-spacing: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FDF2E9;
+}
+
+.intro {
+    color: #1B4F72;
+    font-size: 35px;
+    letter-spacing: 1px;
+    margin: 30px 0px 10px 0px;
+}
+
+.instruction-1, .instruction-2, .instruction-3, .description {
+    font-size: 18px;
+    color: #1B4F72;
+    letter-spacing: 0.5px;
+}
+
+.instruction-3 {
+    margin: 0px 0px 15px 0px;
+}
+
+.description {
+    margin: 0px 0px 15px 0px;
+}
+
+.decorator-elem {
+    font-weight: bold;
+}
+
+.sudoku-solver {
+    margin: auto;
+    width: 50%;
+}
+
+.puzzle {
+    width: 540px;
+    height: 540px;
+}
+
+
+.odd-section {
+    background: #d3d3d3;
+}
+
+.puzzle input {
+    text-align: center;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border: 1px #808080 solid;
+}
+
+.empty-el {
+    color: #4848d4;
+}
+
+.solve-button, .clear-button, .load-button {
+    margin-top: 20px;
+    background-color: #1B4F72;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    letter-spacing: 1px;
+    /* text-transform: uppercase; */
+    cursor: pointer;
+}
+
+.clear-button, .load-button {
+    margin-left: 15px;
+}
+
+.solve-button:hover, .clear-button:hover, .load-button:hover {
+    background-color: #568caf;
+}
