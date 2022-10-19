@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="files/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="files/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="files/favicon_io/favicon-16x16.png">
+    <title>Sudoku Solver</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="sudoku-solver">
+        <h1 class="intro">Sudoku Solver</h1>
+        <p class="description">Solves sudoku puzzle using <span class="decorator-elem">backtracking</span> technique.</p>
+        <p class="instruction-1">&#8594 Enter a valid sudoku puzzle. Then click the <span class="decorator-elem">Solve</span> button to see the solution.</p>
+        <p class="instruction-2">&#8594 Click the <span class="decorator-elem">Clear</span> button to clear the board.</p>
+        <p class="instruction-3">&#8594 Hit <spanc class="decorator-elem">Load a puzzle</spanc> to load a pre-existing puzzle.</p>
+        <div id="puzzle" class="puzzle"></div>
+        <button type="button" id="solve-button" class="solve-button">Solve</button>
+        <button type="button" id="clear-button" class="clear-button">Clear</button>
+        <button type="button" id="load-button" class="load-button">Load a puzzle</button>
+    </div>    
+
+    <script type="module" defer src="scripts/app.js"></script>
+</body>
+</html>
