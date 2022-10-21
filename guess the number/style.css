@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',
+    sans-serif;
+}
+header {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(25, 70, 216);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header .logo{
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+}
+header .mode{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+header .mode img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    display: none;
+}
+header .mode img.active{
+    display: block;
+}
+header .fa-heart{
+    color: red;
+    padding: 0 5px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 60px);
+}
+main .suggetion{
+    width:500px;
+    min-height: 200px;
+    border-radius: 8px;
+    background-color: rgb(211, 211, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+main .suggetion i{
+    font-size: 150px;
+    position: absolute;
+    color: rgb(230, 230, 230);
+}
+.fa-caret-down.active{
+    animation: down-row 1s linear infinite;
+}
+.fa-caret-up.active{
+    animation: up-row 1s linear infinite;
+}
+.fa-circle-check.active{
+    animation: succes 1s linear infinite;
+}
+main .your-seggetion{
+    width:500px;
+    border-radius: 8px;
+    background-color: rgb(241, 241, 241);
+    padding: 15px;
+    margin-top: 15px;
+}
+main .your-seggetion .number{
+    font-size: 24px;
+    font-weight: 700;
+    padding: 5px;
+}
+main input{
+    width: 500px;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: rgb(211, 211, 211);
+    color: #fff;
+    font-size: 22px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+main .info{
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+main .btns{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+main button{
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 18px;    
+    font-weight: bold;
+    border: 1px solid rgb(42, 9, 189);
+    border-radius: 8px;
+    cursor: pointer;
+}
+main .play{
+    background-color: rgb(42, 9, 189);
+    color: #fff;
+}
+main .replay{
+    background-color: #fff;
+    color: rgb(42, 9, 189);
+}
+body{
+    position: relative;
+}
+.mask{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(46, 46, 46, 0.301);
+    visibility: hidden;
+}
+.mask.active{
+    visibility: visible;
+}
+.mask .pop-up{
+    width: 400px;
+    height: 250px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+.mask .pop-up h3{
+    text-align: center;
+    margin: 20px 0;
+}
+.mask .pop-up .inputs{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.mask .pop-up .inputs div{
+    padding: 5px 0;
+}
+.confirm{
+    padding: 10px;
+    background-color: rgb(42, 9, 189);
+    color: #fff;
+    width: 250px;
+    margin: 0 70px;
+    font-size: 18px;    
+    font-weight: bold;
+    border: 1px solid rgb(42, 9, 189);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.more-suggetion{
+    position: absolute;
+    bottom: 0;
+    transition: .3s;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    visibility: hidden;
+    width: 100%;
+    background-color: rgb(71, 71, 71);
+    color: #fff;
+    font-size: 18px;
+}
+@keyframes down-row{
+    0%, 100% {
+        bottom: 0;
+      }
+      50% {
+        bottom: 20px;
+      }
+}
+@keyframes up-row{
+    0%, 100% {
+        top: 0;
+      }
+      50% {
+        top: 20px;
+      }
+}
+@keyframes succes{
+    0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(.7);
+      }
+}

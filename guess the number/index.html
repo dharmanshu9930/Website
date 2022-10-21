@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>guess the number</title>
+</head>
+<body>
+    <header>
+        <div class="logo">GN</div>
+        <div class="heart">
+            
+        </div>
+        <div class="mode">
+            <img src="img/light_mode_FILL0_wght400_GRAD0_opsz48.svg" class="active light" alt="">
+        </div>
+    </header>
+    <main>
+        <div class="suggetion">
+            <i class="fa-solid fa-circle-question"></i>
+            
+        </div>
+        <input type="number" name="" id="input-number" placeholder="Put a number" class="input-number">
+        <div class="info"></div>
+        <div class="btns">
+            <button class="play">Play</button>
+            <button class="replay">Replay</button>
+        </div>
+        <div class="your-seggetion">
+            
+        </div>
+    </main>
+    <div class="mask active">
+        <div class="pop-up">
+            <h3>Choose a range of number</h3>
+            <div class="inputs">
+                <div> 
+                    <input type="radio" name="range" id="first" value="10">
+                    <label for="first">1 - 10 with 1 hint 2 lifes</label></div>
+                <div>
+                    <input type="radio" name="range" id="second" value="50">
+                    <label for="second">1 - 50 with 2 hints 3 lifes</label>
+                </div>
+                <div>
+                    <input type="radio" name="range" id="third" value="100">
+                    <label for="third">1 - 100 with 3 hints 4 lifes</label>
+                </div>
+            </div>
+            <button class="confirm">Confirm</button>
+        </div>
+    </div>
+    <div class="more-suggetion">
+        <div class="more-info">
+        </div>
+        <i class="fa-solid fa-xmark"></i>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
