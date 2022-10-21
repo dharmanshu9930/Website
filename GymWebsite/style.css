@@ -1,0 +1,117 @@
+/* css reset  */
+    body {
+        font-family: 'Rubik Moonrocks', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('Image/bg.jpg');
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        /* same approach as in right */
+        position: absolute;
+        left: 60px;
+        top: 18px;
+    }
+
+    .left img {
+        width: 118px;
+    }
+
+    .left div {
+        line-height: 15px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .mid {
+        /* for centering i am mid first display with width then margin auto */
+        display: block;
+        width: 36%;
+        margin: 22px auto;
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        /* position is use for reaching right box to right side top and button */
+        position: absolute;
+        right: 34px;
+        top: 40px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        /* heading home about etc size means font-size */
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        /* for ending down line in home __ etc */
+        text-decoration: none;
+        /* for gap we use padding  */
+        padding: 34px 23px;
+    }
+
+    /* hover means we can do anything with a ya active then we do below like this */
+    .navbar li a:hover,
+    .navbar li a.active {
+        /* now we should underline by text decoration */
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        font-family: 'Rubik Moonrocks', cursive;
+        /* 0px from top and horizontal from 9px */
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid red;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgba(128, 128, 128, 0.478);
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 106px 38px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+    }
+
+    .form-group input {
+        font-family: 'Rubik Moonrocks', cursive;
+        text-align: center;
+        display: block;
+        width: 448px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 10px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 84%;
+        margin: 12px auto;
+    }
