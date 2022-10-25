@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root { font-size: 16px; }
+        * { font-family: monospace; margin: 0; padding: 0; }
+        #header1 {
+            font-family: 'monospace';
+            font-size: 65px;
+            font-weight: normal;
+            color: #000;
+            margin-top: 150px;
+            font-weight: bold;
+        }
+
+        #end {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 64px;
+            font-weight: bold;
+            color: #fff;
+            margin-top: 150px;
+        }
+    </style>
+</head>
+<body class="change" onload="return randomColor()">
+    <div id="header1" align="center">Random color on refresh</div>
+    <div id="end" class="code" align="center"></div>
+
+    <script>
+        function randomColor() {
+            var color = '#';
+            var colorCode = ['ffaf40','2A9BFB','ff5967','7870cc','33ccbf','00CC33','33CC33','66CC33','99CC33','CCCC33','FFCC33','FF1493']; 
+            var className = document.getElementsByClassName("change");
+            let code = document.getElementById("end");
+            var i;
+            color += colorCode[Math.floor(Math.random() * colorCode.length)];
+            for (var i = 0; i < className.length; i ++) {
+                className[i].style.backgroundColor = color; 
+                code.innerHTML = color;
+            }
+        }
+    </script>
+</body>
+</html>
