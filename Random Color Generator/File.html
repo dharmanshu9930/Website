@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Color Generator</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+        }
+        
+        .heading {
+            border: 5px solid black;
+            border-radius: 20px;
+            background-color: white;
+            padding: 10px;
+        }
+        
+        .colorName {
+            margin-top: 150px;
+            border: 5px solid black;
+            width: 200px;
+            text-align: center;
+            background-color: white;
+            font-size: large;
+            padding: 70px 0;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Ramdom Color Generator on Refresh</h1>
+        </div>
+        <div class="colorName">
+            <script>
+                function randomColor() {
+                    var alphabets = "01233456789ABCDEFGHIJKLMNO";
+                    var hash = "#";
+                    for (var i = 0; i < 6; i++) {
+                        hash += alphabets[Math.floor(Math.random() * 16)];
+                    }
+                    return hash;
+                }
+                document.body.style.background = randomColor();
+                document.write("color code : ", randomColor());
+            </script>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
