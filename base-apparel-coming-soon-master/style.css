@@ -1,0 +1,117 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+#over{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    background-image: url(./images/bg-pattern-desktop.svg) ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#mob-bg-img{
+    display: none;
+}
+
+#img{
+    margin-top: 5px;
+    float: right;
+    width: 42vw;
+    /* aspect-ratio: 610/800; */
+}
+
+#over2{
+    grid-area: 1 / 1 / span 1 / span 1;
+    margin-top: 5vw;
+    margin-left: 11vw;
+
+}
+
+#content{
+    padding-top: 8vw;
+    padding-right: 8vw;
+
+}
+
+#we{
+    font-size: 5vw;
+    color:hsl(0, 36%, 70%);
+}
+#coming{
+    font-size: 5vw;
+    color: hsl(0, 6%, 24%);
+}
+
+#para{
+    font-size: 1.3vw;
+    margin-top: 1.2vw;
+    color: rgb(236, 168, 176);
+}
+
+#form{
+    display: flex;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+#inp{
+    height: 4vw;
+    width: 90%;
+    border-radius: 2vw;
+    border: 1px solid hsla(0, 6%, 24%, 0.517);
+    outline: none;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+#inp:focus{
+    border: 2px solid hsl(0, 93%, 68%);
+    
+}
+#submit{
+    height: 4vw;
+    width: 7vw;
+    background: rgb(223, 157, 165) url(./images/icon-arrow.svg) no-repeat center center;
+    border: 1px solid hsla(0, 6%, 24%, 0.418);
+    border-radius: 3vw;
+    margin-left: -3vw;
+    box-shadow: 0px 3px 10px -5px black;
+    padding: 0.5vw;
+}
+
+#submit:hover{
+    background: rgb(244, 208, 211);
+    box-shadow: 0px 5px 10px -5px black;
+}
+
+
+
+
+
+#footer{
+    text-align: center;
+    /* margin-top: auto; */
+}
+
+.attribution{
+    font-size: 10px;
+}
+
+.attribution a{
+    text-decoration: none;
+}

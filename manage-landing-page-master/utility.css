@@ -1,0 +1,27 @@
+button {
+    background: hsl(12, 88%, 59%);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 50rem;
+    width: 9rem;
+    padding: 11px 0;
+    user-select: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.center{
+    text-align: center;
+}
+
+img {
+    user-select: none;
+}
+
+.pointer:hover {
+    cursor: pointer;
+}

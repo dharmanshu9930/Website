@@ -1,0 +1,120 @@
+.over {
+    background: none;
+}
+
+.items {
+    display: none;
+}
+
+.items ul {
+    display: block;
+}
+
+.divbut button {
+    display: none;
+}
+
+.hamber {
+    float: right;
+}
+
+.intro {
+    display: block;
+    text-align: center;
+}
+
+.intro-content {
+    display: block;
+    padding: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+.intro-content #p1 {
+    margin: 0;
+}
+
+.intro-content #p2 {
+    /* margin: 0; */
+    padding: 0;
+    width: 100%;
+}
+
+.stats img {
+    width: 90%;
+}
+
+.sec1 {
+    display: block;
+    text-align: center;
+}
+
+.about p {
+    width: 100%;
+}
+
+.about-points {
+    width: 100%;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.point-num {
+    background: hsl(13, 100%, 96%);
+}
+
+.point-content p {
+    width: 85%;
+    padding-left: 0;
+    text-align: left;
+}
+
+.clients {
+    height: 100%;
+}
+
+.client-review h2 {
+    margin-bottom: 4rem;
+}
+
+.review {
+    margin-bottom: 5rem;
+    width: 85vw;
+    padding: 0 30px;
+}
+
+.cp1 {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.cp2 {
+    font-size: 1.2rem;
+}
+
+.extro {
+    display: block;
+    text-align: center;
+    height: 100%;
+    padding: 4rem 0;
+}
+
+.extro h1{
+    padding: 0;
+}
+
+.butt{
+    padding: 0;
+}
+
+.extro button{
+    margin: 0;
+    float: none;
+    margin-top: 2rem;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column-reverse;
+}

@@ -1,0 +1,76 @@
+body{
+    /* background: #000; */
+}
+
+#over{
+    display: block;
+}
+
+#over2{
+    margin-top: 0;
+    margin-left: 0;
+    display: block;
+}
+
+#background{
+    display: none;
+}
+
+#logo{
+    padding: 20px;
+}
+
+#mob-bg-img{
+    display: block;
+}
+
+#mobimg{
+    width: 100vw;
+    aspect-ratio: 375/250;
+}
+
+#content{
+    text-align: center;
+    padding: 0;
+}
+
+#head{
+    padding: 7vw 15vw;
+}
+
+#we{
+    font-size: 50px;
+}
+
+#coming{
+    font-size: 50px;
+}
+
+#para{
+    padding: 0vw 8vw;
+}
+
+#p1{
+    font-size: 20px;
+    color: hsl(0, 74%, 74%);
+    /* color: hsl(0, 80%, 86%); */
+}
+
+#form{
+    width: 90%;
+    margin: 30px auto;
+}
+
+#inp{
+    height: 12vw;
+    border-radius: 10vw;
+
+}
+
+#submit{
+    height: 12vw;
+    width: 17vw;
+    border-radius: 10vw;
+    margin-left: -10vw;
+}
+
