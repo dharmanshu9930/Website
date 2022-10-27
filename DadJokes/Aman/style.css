@@ -1,0 +1,49 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Mouse Memoirs', sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin-top: 3.5rem;
+}
+.video {
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  margin: 0%;
+}
+.head {
+  text-align: center;
+  font-size: clamp(20px, 10vh, 100px);
+  font-weight: 600;
+  color: white;
+  text-shadow: 4px 4px 4px purple;
+}
+#btn {
+  position: absolute;
+  width: 20rem;
+  background-color: white;
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#jokes {
+  padding: 10rem;
+  list-style: disc;
+}
+li {
+  position: absolute;
+  width: 20rem;
+  color: white;
+  font-size: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 2rem;
+}
