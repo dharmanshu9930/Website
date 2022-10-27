@@ -1,0 +1,22 @@
+#navbr ul li a {
+    /* font-size: 35px; */
+    padding: 5px 20px;
+}
+
+.boxitems {
+    height: 180px;
+    width: 180px;
+    font-size: 20px;
+}
+
+#sec4{
+    height: 450px;
+}
+
+.box{
+    margin: 10px 0px;
+}
+
+#navbr ul {
+    margin-left: 20px;
+}

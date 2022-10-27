@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    font-family: "Be Vietnam Pro", sans-serif;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.overview {
+    overflow: scroll;
+
+}
+
+.over {
+    background-image: url(./images/bg-tablet-pattern.svg);
+    width: 100vw;
+}
+
+.navbar {
+    display: grid;
+    padding: 10px 0;
+    margin-top: 3rem;
+    grid-template-columns: 1fr 5fr 1fr;
+    padding-top: 2rem;
+    user-select: none;
+    width: 100vw;
+}
+
+.items {
+    margin: 0 20px;
+}
+
+.items ul {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.listitems {
+    list-style: none;
+    padding: 5px 10px;
+}
+
+.listitems a {
+    text-decoration: none;
+    color: black;
+}
+
+.listitems a:hover {
+    opacity: 0.5;
+}
+
+.logo img {
+    padding: 5px 0;
+    margin-left: 100px;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 80px;
+}
+
+.intro-content {
+    margin-left: 100px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro-content #p1 {
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.intro-content #p2 {
+    font-size: 1.3rem;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 60%;
+    opacity: 0.6;
+}
+
+.stats {
+    margin-top: 30px;
+    grid-area: 1 / 2 / span 1/ span 1;
+}
+
+.stats img {
+    /* grid-column-start: 2;
+    grid-column-end: 1; */
+    width: 500px;
+}
+
+.hamber{
+    display: none;
+}
+
+.sec1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 130px;
+    margin-bottom: 120px;
+}
+
+.about {
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.about h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+
+}
+
+.about p {
+    font-size: 1.2rem;
+    opacity: 0.5;
+    width: 60%;
+}
+
+.about-points {
+    width: 70%;
+}
+
+.points {
+    margin-bottom: 2rem;
+}
+
+.point-num{
+    display: flex;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+
+.point-num .h3{
+    background: hsl(12, 88%, 59%);
+    border-radius: 5rem;
+    color: white;
+    cursor: none;
+    display: flex;
+    height: 1.5rem;
+    font-size: 1.3rem;
+    justify-content: center;
+    margin-right: 2rem;
+    padding: 0.7rem 1.8rem;
+    user-select: none;
+}
+
+.point-num h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.point-content p {
+    padding-left: 7rem;
+    font-size: 1.2rem;
+    opacity: 0.5;
+}
+
+.client-review h2 {
+    margin-bottom: 8rem;
+    font-size: 3rem;
+}
+
+.clients {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    overflow: scroll;
+    height: 150px;
+    padding-top: 50px;
+    scroll-behavior: smooth;
+}
+
+.clients::-webkit-scrollbar {
+    /* visibility: hidden; */
+    display: none;
+}
+
+.review {
+    width: 350px;
+    margin-right: 1.5rem;
+    /* text-align: center; */
+    background: rgba(0, 0, 0, 0.02);
+    padding: 1rem;
+}
+
+.cp1 {
+    margin: 0.7rem 0;
+}
+
+.cp2{
+    opacity: 0.6;
+}
+
+.review img {
+    width: 50px;
+    margin-top: -3rem;
+}
+
+.client-review button {
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+}
+
+footer {
+    margin-top: 3rem;
+    margin-top: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .extro::before {
+    content: "";
+    background-image: url(./images/bg-tablet-pattern.svg);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+} */
+
+.extro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* gap: 20rem; */
+    padding: 4rem 0;
+    color: white;
+    padding-left: 10rem;
+    background: hsl(12, 88%, 59%);
+}
+
+.extro h1 {
+    /* text-align: left; */
+    /* background: rgb(178, 122, 122); */
+    font-size: 2.5rem;
+    padding-right: 6rem;
+}
+
+.extro button {
+    background: white;
+    color: hsl(12, 88%, 59%);
+    margin-left: 7rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    float: right;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* text-align: center; */
+    padding-bottom: 4rem;
+    padding-top: 5rem;
+    padding-left: 10rem;
+    background: hsl(233, 12%, 13%);
+    color: white;
+}
+
+.social{
+    grid-area: 2 / 1 / span 1/ span 1;
+}
+
+.social a{
+    cursor: pointer;
+    margin: 5px;
+}
+
+.social a :hover{
+    background: hsl(12, 88%, 59%);
+}
+
+.options {
+    display: flex;
+    gap: 100px;
+    /* grid-template-columns: 1fr 1fr; */
+    grid-area: 1 / 2 / span 2 /span 1 ;
+}
+
+.options ol {
+    list-style: none;
+}
+
+.options ol li {
+    padding: 5px;
+}
+
+.options ol li a {
+    color: white;
+    text-decoration: none;
+}
+
+.options ol li a:hover{
+    color: hsl(12, 88%, 59%);
+}
+
+.others{
+    padding-left: 5rem;
+}
+
+.search{
+    grid-area: 1 / 3 / span 2/ span1;
+
+}
+
+.search input {
+    border-radius: 100rem;
+    border: none;
+    padding-left: 1.5rem;
+    height: 2.5rem;
+    width: 11.5rem;    
+}
+
+.search p{
+    margin-top: 50px;
+    float: right;
+    font-size: 5px;
+    opacity: 0.4;
+    padding-right: 2rem;
+}
+
+.search button {
+    width: 50px;
+    margin-left: 1rem;
+}
+
+
+.attribution {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 850px) {
+    .stats img {
+        width: 50vw;
+        min-width: 300px;
+    }
+
+    .logo img {
+        margin-left: 60px;
+    }
+
+    .intro-content {
+        margin-left: 60px;
+    }
+
+    .about-points{
+        width: 85%;
+    }
+
+    .about {
+        margin-left: 60px;
+    }
+
+    .extro {
+        gap: 0rem;
+        padding: 0;
+        background: hsl(12, 88%, 59%);
+        padding-bottom: 5rem;
+    }
+    
+    .extro h1{
+        padding: 0;
+        padding-left: 5rem;
+        padding-top: 4rem;
+    }
+    
+    .butt{
+        padding-left: 7rem;
+        padding-top: 4rem;
+    }
+
+    .extro button {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    float: none;
+    }
+
+    .options{
+        gap: 0;
+    }
+
+    .others{
+        padding-left: 1rem;
+    }
+
+}

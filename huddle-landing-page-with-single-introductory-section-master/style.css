@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    background: hsl(257, 40%, 49%);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+    height: 100%;
+}
+
+#over::before {
+    content: "";
+    background: url(./images/bg-desktop.svg) no-repeat center center / cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#hudd{
+    margin-top: 5vmin;
+    margin-left: 10vw;
+    font-size: 5vmin;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#over2 {
+    display: flex;
+    width: 95%;
+    /* grid-template-columns: 1.5fr 1fr; */
+    margin: 10px auto;
+    margin-top: 5vmin;
+    /* margin-left: 5vw; */
+}
+
+#frontimg {
+    width: 50vw;
+}
+
+#img{
+    align-items: center;
+    justify-content: center;text-align: center;
+}
+
+#content {
+    padding: 2vmax;
+    padding-left: 5vmin;
+    padding-right: 4vmin;
+    width: 90%;
+}
+
+#h1 {
+    font-size: 3vw;
+}
+
+#p1{
+    font-size: 1.5vw;
+    margin-top: 3vmin;
+}
+
+#btn{
+    margin-top: 3vmin;
+    border: none;
+    border-radius: 5vmin;
+    font: 3vmin bold;
+    padding: 2vmin 5vmin;
+    color: hsl(257, 40%, 49%);
+    box-shadow: 2px 2px 10px black;
+}
+
+#btn:hover{
+    background: hsl(300, 69%, 71%);
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+#foot{
+    margin-top: auto;
+}
+
+#footer{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+}
+
+#attribution{
+    margin: auto 5px;
+}
+
+#social{
+    text-align: right;
+    margin-right: 2rem;
+
+}
+.fa {
+    padding: 10px;
+    font-size: 10rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    background: hsl(300, 69%, 71%);
+    cursor: pointer;
+}
+
+.fa-facebook {
+    background: transparent;
+    color: white;
+    width: 10px;
+}
+
+.fa-twitter {
+    background: transparent;
+    color: white;
+}
+.fa-instagram {
+    background: transparent;
+    color: white;
+}

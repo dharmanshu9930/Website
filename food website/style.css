@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    /* background: url(bg1.jpg) no-repeat; */
+    background: rgba(0, 0, 0, 0.066);
+}
+
+:root {
+    --navbr-height: 60px;
+}
+
+#navbr {
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+}
+
+#navbr div img {
+    /* margin: 0px 30px; */
+    height: 5.6rem;
+    width: 5.6rem;
+}
+
+#navbr::before {
+    content: "";
+    background-color: rgb(26, 11, 26);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+#navbr ul {
+    display: flex;
+    /* margin-left: 80px; */
+    width: 100%;
+    /* margin: 0px auto; */
+}
+
+#navbr ul li {
+    list-style: none;
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+#navbr ul li a {
+    /* margin: 0px auto; */
+    border-radius: 20px;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    /* padding: 5px 30px; */
+    transition-duration: 300ms;
+}
+
+#navbr ul li a:hover {
+    background: white;
+    color: black;
+}
+
+
+
+
+
+.blur{    
+    top: 0;
+    left: 0;
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+}
+
+.box {
+    border-radius: 40px;
+    /* border: 1px solid #000; */
+    /* background: rgb(255, 255, 255); */
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    margin: 20px 0px;
+}
+
+.boxitems {
+    /* -webkit-backdrop-filter: blur(5px); */
+    /* backdrop-filter: blur(5px); */
+    align-items: center;
+    background: #df7777a1;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    font: 30px bold;
+    font-weight: bold;
+    height: 200px;
+    justify-content: center;
+    margin: auto auto;
+    /* opacity: 0.7; */    
+    transition: 200ms ease-in-out;
+    width: 250px;
+}
+
+.boxitems:hover {
+    font: 34px bold;
+    font-weight: bold;
+    padding: 5px 5px;
+    transition: 200ms ease-in-out;
+}
+
+.boxitems a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 110px;
+}
+
+.home {
+    /* display: flex; */
+    font-size: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.343);
+    height:100%;
+    width: 100%;
+    /* margin: 0px 20px; */
+}
+
+/* .home::before {
+    display: flex;
+    content: "";
+    background: url(bg1.jpg) no-repeat center center/cover;
+    position: fixed;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+} */
+
+.inform{
+    display:grid;
+    grid-template-columns: 100fr 100fr;
+
+}
+
+.inp{
+    /* display: block; */
+    height: 25px;
+    width: 15vw;
+}
+
+
+
+
+
+
+
+
+
+
+.center {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.common {
+    align-items: center;
+    /* border: 1px solid rgb(229, 115, 115); */
+    /* border-radius: 25px; */
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    height: 350px;
+    justify-content: center;
+    padding: 0 10px;
+    /* color: white; */
+    /* margin: 0px 20px; */
+}
+
+.font25{
+    font-size: 25px;
+}
+
+.h-primary {
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    display: inline;
+    padding: 12px;
+}
+
+.h-secondary {
+    font-family: 'Bree Serif', serif;
+    font-size: 2.3rem;
+    padding: 12px;
+}
+
+
+
+
+
+
+
+
+
+#bgi{
+    padding: 0 20px;
+}
+
+#p1 {
+    text-align: center;
+}
+
+#wel{
+    display: inline;
+    color: rgb(23, 3, 73);
+    /* background: rgba(0, 0, 0, 0.501); */
+}
+
+#imess{
+    height: 100px;
+    width: 15vw;
+}
+
+#submit{
+    height: 30px;
+    width: 150px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#imess{
+    text-align: initial;
+    
+}

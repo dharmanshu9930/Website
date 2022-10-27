@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    Font size: 16px
+}
+
+#overview{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#overview::before{
+    content: "";
+    background: hsl(0, 100%, 74%) url(./images/bg-intro-desktop.png) no-repeat center center / cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+
+}
+
+#over{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#div1{
+    color: white;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15rem;
+    padding-right: 2rem;
+}
+
+#h1{
+    font-size: 5rem;
+}
+
+#p1{
+    font-size: 1.8rem;
+    padding-top: 2rem;
+}
+
+
+#div2{
+    display: flex;
+    height: 100vh;
+    flex-direction:column;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+#div2headover{
+    border-radius: 10px;
+    /* border-bottom: 10px solid hsl(0, 55%, 60%); */
+    /* background: hsl(248, 32%, 49%); */
+    width: 79%;
+}
+
+#div2head{
+    align-items: center;
+    background: hsl(248, 32%, 49%);
+    border-bottom: 10px solid hsl(0, 55%, 60%);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    font-size: 1.65rem;
+    height: 5rem;
+    justify-content: center;
+    padding: 0.4rem 0;
+    /* width: 79%; */
+}
+
+#p2{
+    font-weight: bold;
+}
+
+#p3{
+    color: rgba(255, 255, 255, 0.802);
+}
+
+#div2content{
+    background: white;
+    border-radius: 10px;
+    width: 79%;
+    margin-top: 1.5rem;
+    padding-top: 10px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+}
+
+.inp{
+    margin: 10px 50px;
+    /* margin-left: 50px; */
+    height: 5.5rem;
+    padding-left: 35px;
+    border:1.5px solid hsl(246, 25%, 77%) ;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+#name1{
+    margin-top: 3rem;
+}
+
+#btn{
+    padding-left: 0;
+    margin: 0px auto;
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    border-bottom: 6px solid hsl(154, 59%, 43%);
+    color: white;
+    font-size: 1.5rem;
+    height: 5.5rem;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    width: 85%;
+}
+
+#p5{
+    margin: 10px auto;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+#footer{
+    margin-top: auto;
+    text-align: center;
+}
