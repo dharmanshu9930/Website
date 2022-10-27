@@ -1,0 +1,16 @@
+{
+  "name": "stone_paper_scissors",
+  "version": "1.0.0",
+  "description": "Stone_Paper_Scissors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yash_Khandelwal",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.1"
+  }
+}
