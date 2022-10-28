@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+}
+
+#Players{
+    margin: 20px;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap:wrap ;
+    justify-content: center;
+}
+
+#na{
+    margin: 50px;
+    /* border: solid 1px; */
+    padding: 10px;
+}
+
+.result-selection {
+    opacity: .5;
+  }
+  
+  .result-selection.winner {
+    opacity: 1;
+    font-size: 1.5rem;
+  }
+
+ #hide{
+    color: transparent;
+ }
