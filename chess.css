@@ -1,0 +1,64 @@
+*, *::before, *::after{
+  box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  -o-box-sizing: border-box;  
+}
+
+#containerFull {
+  width: 780px;
+  margin: 0 auto;
+}
+
+#container {
+  border: 3px solid #000;
+  width: 566px;
+  height: 563px;
+  border-radius: 5px;
+  cursor: pointer;
+  float: left;
+}
+
+.row {
+  clear: both;
+}
+
+.row div {
+  font-size: 3em;
+  float: left;
+  width: 70px;
+  height: 70px;
+  border-left: 1.5px solid #000;
+  border-bottom: 1.5px solid #000;
+  text-align: center;
+}
+
+.row div:first-child {
+  border-left: 0;
+}
+
+.line-1 div:nth-child(2n+1)  {
+  background: #000;
+  color: #FFF
+}
+
+.line-2 div:nth-child(2n)  {
+  background: #000;
+  color: #FFF
+}
+
+#pontuacao {
+  border: 1px solid #000;
+  width: 200px;
+  height: 50px;
+  float:left;
+  padding: 6px;
+  font-size: 30px;
+  text-align: right;
+  margin-left: 5px;
+  border-radius: 5px; 
+}
+
+.mensagem {
+  text-align: center;
+}
